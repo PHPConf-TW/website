@@ -1,0 +1,54 @@
+$lineHeight: 35px
+
+#footer
+  position: relatvie
+  clear: both
+  overflow: hidden
+  margin: 0 auto
+  width: $fixed-width
+  margin-bottom: 10px
+  background: $menu-bg-color
+  min-height: 35px
+  height: 1%
+  +border-radius(0 0 10px 10px)
+  +page-shadow
+
+  p.copyright
+    float: right
+    line-height: $lineHeight
+    color: $menu-font-color
+    margin: 15px
+
+  p.powered
+    margin-top: 18px
+    margin-right: 20px
+    float: right
+
+    a
+      display: block
+      width: 127px
+      height: 25px
+      line-height: 25px
+      background: url(../img/logo/zf.png) no-repeat
+      text-indent: -9999px
+
+  nav.bottom
+
+    ul
+      float: right
+      margin: 15px 15px 15px 30px
+      padding: 0
+
+      li
+        display: inline
+        list-style-type: none
+        text-align: right
+
+        a
+          display: block
+          float: left
+          height: 35px
+          line-height: $lineHeight
+          color: $menu-font-color
+          padding-right: 20px
+          text-decoration: none

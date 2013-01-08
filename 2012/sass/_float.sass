@@ -1,0 +1,30 @@
+//==============================
+// Clear Floated Elements
+//==============================
+.float-left
+  float: left
+
+.float-right
+  float: right
+
+.clear
+  clear: both
+  display: block
+  overflow: hidden
+  visibility: hidden
+  width: 0
+  height: 0
+
+.clear:after
+  clear: both
+  content: ' '
+  display: block
+  font-size: 0
+  line-height: 0
+  visibility: hidden
+  width: 0
+  height: 0
+
+* html .clear
+  height: 1%
+//========== Clear Floated Elements end ==========

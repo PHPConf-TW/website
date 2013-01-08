@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Gothic";
+  src: url("../fonts/gothic.eot");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gothic";
+  src: url("../fonts/gothicb.eot");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bauhs";
+  src: url("../fonts/bauhs93.eot");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "phpConf";
+  src: url("../fonts/phpconf2012.eot");
+  font-weight: normal;
+  font-style: normal;
+}

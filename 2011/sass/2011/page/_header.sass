@@ -1,0 +1,102 @@
+#header
+  margin: 0 auto
+  width: $fixed-width
+  position: relative
+  overflow: hidden
+  background: $header-bg-color
+  height: 150px
+  +page-shadow
+
+  #hgroup
+    margin: 0 auto
+    padding: 0
+    width: $fixed-width
+    height: 100px
+    position: relative
+
+    h1
+      position: absolute
+      top: 15px
+      left: 10px
+      margin: 0
+      padding: 0
+      background: url(../img/logo/phpconf.jpg) no-repeat
+
+      a
+        display: block
+        width: 237px
+        height: 80px
+        text-indent: -9999px
+        overflow: hidden
+        outline: none
+    h2
+      position: absolute
+      bottom: 0
+      left: 260px
+      margin: 0
+      padding: 0
+      color: $header-font-color
+      font: 16px/32px bold
+
+    h3
+
+      &.registration-time
+        position: absolute
+        top: 10px
+        left: 690px
+        width: 200px
+        height: 100px
+        text-indent: -9999px
+        overflow: hidden
+        background: url(../img/layout/registration_time.png) no-repeat
+
+      a.register
+        position: absolute
+        top: 5px
+        left: 670px
+        width: 250px
+        height: 100px
+        text-indent: -9999px
+        overflow: hidden
+        background: url(../img/layout/registration_bg.png) no-repeat
+
+  nav.top
+
+    ul
+      position: relative
+      top: 10px
+      background: $menu-bg-color
+      box-shadow: inset 0 3px 0 #ccc
+      z-index: 9999
+      margin: 0 auto
+      width: $fixed-width
+      height: 40px
+
+      &:first-child
+        padding-left: 10px
+
+      li
+        display: inline
+
+        a
+          float: left
+          display: block
+          font-size: 1.2em
+          height: 30px
+          line-height: 30px
+          padding: 5px 20px
+          color: #ccc
+          text-decoration: none
+          +border-radius(5px 5px 0 0)
+
+          &:hover
+            color: #fff
+
+        &.active>a
+          background: #fff
+          color: #333
+          +box-shadow(inset 0 3px 0 $menu-bg-color)
+
+          &:hover
+            color: #333
+

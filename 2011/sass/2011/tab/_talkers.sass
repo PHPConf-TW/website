@@ -1,0 +1,80 @@
+#talkers
+
+  li.talker
+    overflow: hidden
+    padding: 10px 0
+    margin-bottom: 20px
+    +bottom-line
+
+    .profile
+
+      .name
+        float: left
+        font: 18px/36px bold
+        color: $talker-name-color
+
+        span
+          display: inline
+
+          &.separator
+            color: $talker-separator-color
+            margin: 0 7px
+
+      .job
+        float: left
+        font: 14px/28px bold
+        margin: 5px 5px 5px 10px
+        color: $talker-job-color
+
+      .info
+        clear: both
+        float: left
+        width: 20%
+        min-width: 140px
+
+        .photo
+          clear: both
+          border: none !important
+          margin: 5px !important
+          margin-right: 10px !important
+
+          img
+            +box-shadow($talker-photo-border-color, 0, 0, 5px)
+            +border-radius(10px)
+
+        .link
+          width: 130px
+          margin: 0
+          padding: 0
+          margin-left: 13px
+          @include all-social-sprites
+
+          &>li
+            float: left
+            margin-right: 2px !important
+            margin-bottom: 2px !important
+
+          a
+            display: block
+            width: 32px
+            height: 32px
+            text-indent: -9999px
+            +opacity(0.5)
+
+            &:hover
+              +opacity(1)
+
+      dl
+        float: left
+        width: 80%
+
+        dt
+          font: 16px/32px bold
+          color: $talker-profile-term-color
+
+        dd
+          font: 14px/150% normal
+          color: $talker-profile-content-color
+
+          li
+            list-style-type: disc

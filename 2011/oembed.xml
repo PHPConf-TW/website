@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oembed>
+    <version>1.0</version>
+    <type>link</type>
+    <title>PHPConf Taiwan 2011</title>
+    <thumbnail_url>http://phpconf.tw/img/logo/phpconf.jpg</thumbnail_url>
+    <thumbnail_width>237</thumbnail_width>
+    <thumbnail_height>80</thumbnail_height>
+    <author_name>phpconf.tw</author_name>
+    <author_url>http://phpconf.tw/</author_url>
+    <provider_name>PHPConf Taiwan</provider_name>
+    <provider_url>http://phpconf.tw/</provider_url>
+</oembed>

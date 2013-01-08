@@ -1,0 +1,538 @@
+@mixin grid($columns, $unitWidth)
+  width: $columns * $unitWidth
+
+@media screen and (min-width: 319px)
+  body
+    background: #FDFBFB url(../images/layout/bg_320.png) repeat-x center 40px
+
+  .display-320
+    display: block
+  .display-720
+    display: none
+
+  #conference-title-mobile
+    margin: 0 auto
+    width: 320px
+    height: 120px
+    background: transparent url(../images/layout/title_320.png) no-repeat center center
+  #conference-title
+    display: none
+
+  #conference-date
+    color: #696A7B
+    line-height: 0
+    text-align: right
+    padding-right: 1em
+  #conference-slogan
+    display: none
+  #conference-title
+    text-align: center
+
+  #header, #main, #footer-content
+    @include grid(4, 80px)
+    margin: 0 auto
+
+  #header-logo-content
+    padding-bottom: 1.5em
+
+  //========== title block start ==========
+  #conference-title
+    color: #70A3B7
+    font:
+      family: 'Bauhs', sans-serif
+      size: 4.4em
+
+  #conference-subtitle
+    margin-top: -0.32em
+
+  .taiwan-letter, .conference-year
+    font:
+      family: 'Gothic', sans-serif
+      size: 0.6em
+
+  .conference-year
+    margin-left: 0.2em
+
+  .taiwan-first-letter, .taiwan-letter, .title-color2
+    color: #757575
+
+  .taiwan-first-letter
+    margin-left: -0.79em
+
+  .taiwan-letter
+    margin-left: -0.2em
+  //========== title block end ==========
+
+  #footer-navigation
+    display: none
+  #copyright
+    width: 290px
+    float: left
+  #content, #sidebar
+    @include grid(4, 80px)
+
+  #header-navigation
+    ul
+      padding: 0 0 0 20px
+    li
+      border-left: 2px solid #617CBE
+      padding: 0.5em 0 0.5em 5px
+      width: 93px
+    .navigation-last
+      padding-right: 0
+
+  #sponsors
+    padding-left: 20px
+    li
+      width: 130px
+      padding-right: 20px
+      padding-bottom: 0.5em
+    img
+      width: 130px
+
+  .speaker-picture-container
+    padding: 0.5em 0 0.8em 0
+  .speaker-job-title
+    line-height: 1.8em
+  .socialIcons
+    padding: 8px 0
+  .speaker-description
+    clear: both
+
+  .news-index, .schedule-index, .speakers-index, .location-index, .staff-index
+    padding-bottom: 1em
+  #map
+    width: 250px
+    height: 320px
+
+  .schedule-time, .schedule-header-time
+    text-align: center
+    width: 58px
+    float: left
+  .schedule-time
+    line-height: 1.5em
+    text-align: left
+    padding-left: 6px
+    padding-top: 5px
+  .schedule-info, .schedule-header-info
+    padding: 0 5px
+    width: 212px
+    float: right
+  .schedule-info-2track-left, .schedule-info-2track-right
+    float: left
+    padding: 5px
+    width: 95px
+  .schedule-info-2track-left
+    border-right: 2px dotted #C8C9D0
+  #schedule-info-2track-right-fix-1, #schedule-info-2track-right-fix-2, #schedule-info-2track-right-fix-3, #schedule-info-2track-right-fix-4
+    width: 100%
+  .schedule-header-info
+    .schedule-info-2track-left
+      border: 0
+  .schedule-info
+    border-left: 2px dotted #C8C9D0
+    h4, h5
+      margin: 0.5em 0 0 0
+      line-height: 1.2em
+    h4
+      color: #617CBE
+      font-size: 1em
+    h5
+      color: #38435E
+      font-size: 0.8em
+      padding-bottom: 0.5em
+    article
+      color: #617CBE
+      font-size: 0.85em
+      line-height: 1.2em
+      padding-bottom: 0.5em
+  #schedule-info-2track-right-fix-1
+    height: 1.5em
+  .schedule-event-short
+    .schedule-info
+      padding: 16px 8px
+      width: 206px
+
+@media screen and (min-width: 479px)
+  body
+    background: #FDFBFB url(../images/layout/bg_480.png) repeat-x center 40px
+
+  #conference-title-mobile
+    width: 480px
+    height: 170px
+    background: transparent url(../images/layout/title_480.png) no-repeat center center
+
+  #conference-date
+    padding-right: 3em
+
+  #header, #main, #header-logo-content, #footer-content
+    @include grid(4, 120px)
+
+  //========== title block start ==========
+  #conference-title
+    color: #70A3B7
+    font:
+      family: 'Bauhs', sans-serif
+      size: 6em
+
+  #conference-subtitle
+    margin-top: -0.32em
+
+  .taiwan-letter, .conference-year
+    font:
+      family: 'Gothic', sans-serif
+      size: 0.6em
+
+  .conference-year
+    margin-left: 0.2em
+
+  .taiwan-first-letter, .taiwan-letter, .title-color2
+    color: #757575
+
+  .taiwan-first-letter
+    margin-left: -0.79em
+
+  .taiwan-letter
+    margin-left: -0.2em
+  //========== title block end ==========
+
+  #footer-navigation
+    display: none
+  #copyright
+    width: 440px
+    float: left
+  #content, #sidebar
+    @include grid(4, 120px)
+
+  #header-navigation
+    ul
+      padding: 0 0 0 90px
+    li
+      width: 123px
+    .navigation-last
+      padding-right: 0
+
+  #sponsors
+    padding-left: 40px
+    li
+      width: 180px
+      padding-right: 40px
+      padding-bottom: 1em
+    img
+      width: auto
+
+  .schedule-info, .schedule-header-info
+    padding: 0 5px
+    width: 368px
+  .schedule-info-2track-left, .schedule-info-2track-right
+    float: left
+    padding: 5px
+    width: 173px
+  .schedule-header-info
+    .schedule-info-2track-left, .schedule-info-2track-right
+      float: left
+      padding: 0 42px
+      width: 95px
+  #schedule-info-2track-right-fix-1
+    height: 0
+  .schedule-event-short
+    .schedule-info
+      padding: 16px 8px
+      width: 362px
+
+
+  .speaker-title-container
+    float: right
+    padding: 1em 0
+    width: 288px
+  .speaker-picture-container
+    float: left
+    padding: 1em 0
+    //width: 160px
+  .speaker-description
+    margin: 0 auto
+    width: 420px
+  .socialIcons
+    width: 120px
+
+  #map
+    width: 400px
+    height: 240px
+
+@media screen and (min-width: 719px)
+  body
+    background: #FDFBFB url(../images/layout/bg.png) repeat-x center 0
+
+  .display-320
+    display: none
+  .display-720
+    display: block
+
+  #conference-title-mobile
+    display: none
+  #conference-title
+    display: block
+
+  #conference-slogan
+    color: #617CBE
+    display: block
+    font-size:  1.9em
+    letter-spacing: 0.059em
+    text-align: right
+
+  #header, #main, #header-logo-content, #footer-content
+    @include grid(12, 60px)
+  #header-logo-content
+    padding-bottom: 0
+
+  #past-editions
+    display: block
+  #past-editions-content
+    width: 240px
+  #footer-navigation
+    @include grid(9, 60px)
+    display: block
+  #copyright
+    @include grid(3, 60px)
+    float: right
+  #content
+    @include grid(8.5, 60px)
+  #sidebar
+    @include grid(3.5, 60px)
+  #sidebar-container
+    background: url('../images/bg_sponsor.png') repeat
+    border: 1px solid #CCC
+    +box-shadow(rgba(43, 39, 40, .4) 0 0 8px)
+    color: #696A7B
+    font-weight: bold
+    margin: 30px auto 0 auto
+    text-align: center
+  #sponsors
+    padding: 0
+    h2
+      background: #70A3B7
+      color: #FFF
+    li
+      width: 100%
+      padding: 0 0 15px 0
+      text-align: center
+    img
+      width: auto
+  #content, #conference-title, #footer-navigation
+    float: left
+  #header-logo-content, #conference-date, #sidebar, #copyright
+    float: right
+  #conference-title
+    @include grid(6.5, 60px)
+    text-align: left
+  #conference-date
+    @include grid(5.5, 60px)
+    font-size: 1.3em
+    line-height: 2.28em
+    text-align: left
+    padding-right: 0
+  #header
+    padding-top: 20px
+
+  #header-navigation
+    float: right
+    ul
+      padding: 0px
+    li
+      padding: 7px 32px 7px 10px
+      //margin-left: 32px
+      width: auto
+    .navigation-last
+      padding-right: 0
+
+  #footer-navigation
+    font:
+      size: 0.85em
+    li
+      padding-right: 1.8em
+  #header
+    margin-bottom: 50px
+  #sidebar-container
+    font-size:  0.8em
+    width: 100%
+
+  .news-index
+    article
+      padding: 0 1em
+
+  .schedule-time
+    line-height: 3.5em
+    padding-top: 0
+  .schedule-info
+    line-height: 2.1em
+    border-left: 2px dotted #C8C9D0
+    padding-bottom: 0
+  .schedule-time, .schedule-header-time
+    text-align: center
+    width: 100px
+    float: left
+    padding-left: 0
+  .schedule-info, .schedule-header-info
+    width: 328px
+    padding: 0 8px
+    float: right
+  .schedule-header-info
+    .schedule-info-2track-left, .schedule-info-2track-right
+      padding: 0 34px
+      width: 95px
+  .schedule-info-2track-left, .schedule-info-2track-right
+    float: left
+    padding: 5px 0
+  .schedule-info-2track-left
+    border-right: 2px dotted #C8C9D0
+    width: 156px
+    padding-right: 8px
+  .schedule-info-2track-right
+    width: 154px
+    padding-left: 8px
+  #schedule-info-2track-right-fix-1
+    height: 1.5em
+  #schedule-info-2track-right-fix-2
+    height: 1.5em
+  #schedule-info-2track-right-fix-3
+    height: 3em
+  #schedule-info-2track-right-fix-4
+    height: 3em
+  .schedule-info
+    h4, h5
+      margin: 0.5em 0 0 0
+      line-height: 1.2em
+    h4
+      font-size: 1.25em
+    h5
+      font-size: 0.8em
+      padding-bottom: 0.5em
+    article
+      color: #617CBE
+      font-size: 0.85em
+      line-height: 1.2em
+      padding-bottom: 0.5em
+  .schedule-event-short
+    .schedule-info
+      padding: 0 8px
+      width: 328px
+
+  .speaker-title-container
+    float: none
+    width: 100%
+  .speaker-info
+    @include grid(2, 60px)
+    float: left
+  .speaker-description
+    @include grid(5.5, 60px)
+    float: right
+    clear: none
+  .speaker-picture-container
+    padding: 0
+    width: 148px
+  .socialIcons
+    padding: 8px 3px
+
+  .news-index, .schedule-index, .speakers-index, .location-index, .staff-index
+    padding-bottom: 3em
+
+  .schedule-index
+    padding-left: 1em
+    padding-right: 1em
+
+  #map
+    @include grid(7.3, 60px)
+    height: 360px
+
+@media screen and (min-width: 960px)
+  #conference-title-container
+    float: right
+  #conference-mascot
+    display: block
+    float: left
+    //height: 249px
+    padding-top: 61px
+    text-align: center
+    width: 230px
+
+  #header, #main, #footer-content
+    @include grid(12, 80px)
+  #content, #footer-navigation, #header-logo-content
+    @include grid(9, 80px)
+  #sidebar, #copyright
+    @include grid(3, 80px)
+  #content, #conference-title, #footer-navigation
+    float: left
+  #header-logo-content, #conference-date, #sidebar, #copyright
+    float: right
+  #conference-title
+    @include grid(5, 80px)
+  #conference-date
+    @include grid(4, 80px)
+    font-size: 1.3em
+    line-height: 2.28em
+  #header-navigation
+    ul
+      padding: 0
+    li
+      padding-right: 48px
+    .navigation-last
+      padding-right: 0
+  #footer-navigation
+    li
+      padding-right: 3em
+  #sidebar-container, #registration-link
+    width: 92%
+  #sidebar-container
+    font-size:  0.85em
+
+  .news-index
+    article
+      padding: 0 1.2em
+
+  .schedule-time, .schedule-header-time
+    width: 110px
+  .schedule-info, .schedule-header-info
+    padding: 0 16px
+    width: 505px
+  .schedule-info-2track-left
+    width: 236px
+    padding-right: 16px
+  .schedule-info-2track-right
+    width: 235px
+    padding-left: 16px
+  #schedule-info-2track-right-fix-1
+    height: 0
+  #schedule-info-2track-right-fix-2
+    height: 0
+  #schedule-info-2track-right-fix-3
+    height: 0
+  #schedule-info-2track-right-fix-4
+    height: 3em
+  .schedule-header-info
+    .schedule-info-2track-left, .schedule-info-2track-right
+      padding: 0 78px
+      width: 95px
+  .schedule-event-short
+    .schedule-info
+      padding: 0 16px
+      width: 505px
+  .schedule-index
+    padding-left: 1.2em
+    padding-right: 1.2em
+
+  .speaker-info
+    @include grid(2, 80px)
+  .speaker-description
+    width: 520px
+  .speaker-name, .speaker-job-title
+    float: left
+  .speaker-job-title
+    line-height: 2.4em
+    padding-left: 1em
+  .speaker-picture-container
+    width: 168px
+
+  #map
+    @include grid(8, 80px)
+    height: 480px

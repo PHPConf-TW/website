@@ -1,0 +1,74 @@
+#sessions
+
+  p.note
+    margin-bottom: 5px
+    text-align: center
+    font: 14px/120% bold
+    color: #f63
+
+  table
+    font-size: 15px
+    border: 1px solid #000
+    width: 100%
+    table-layout: fixed
+    +box-shadow(inset 0px 0px 10px #ccc)
+
+    td,th
+      border: 1px solid $session-table-border-color
+      padding: 5px
+      text-align: center
+
+    th
+      background: #666
+      color: #eee
+      font-size: 20px
+
+    tr.break
+      background: $session-table-break-bg-color
+
+      td
+        color: #fff
+        text-align: center
+
+    tr.other
+      background: $session-table-other-bg-color
+
+    th.time
+      width: 80px
+
+    td
+      padding: 5px
+
+      &.time
+        background: $session-table-time-bg-color
+        vertical-align: middle !important
+
+      span
+        display: block
+
+      h1.subject
+        margin: 0 !important
+        padding: 5px 0
+        font: 18px/30px bold !important
+        color: $session-table-subject-color !important
+        border: none !important
+        text-align: left
+
+      h2.talkerName
+        margin-left: 10px !important
+        font: 16px/30px normal !important
+        color: $session-table-talker-color !important
+        text-align: left
+        padding: 5px 0
+
+        &>span
+          display: inline
+
+          &.separator
+            margin: 0 5px
+
+      div.brief
+        font: 14px/25px normal !important
+        color: $session-table-brief-color
+        margin: 10px auto 20px 20px
+        text-align: left

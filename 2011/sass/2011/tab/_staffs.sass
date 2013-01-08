@@ -1,0 +1,25 @@
+#staffs
+
+  & *
+    font: 16px/32px normal
+
+  ul
+    overflow: hidden
+
+    li
+      display: inline
+
+      &:after
+        color: $staff-separator
+        content: ' / '
+
+      &:last-child
+
+        &:after
+          content: ''
+
+      &.image
+        display: block
+
+        &:after
+          content: ''

@@ -1,0 +1,48 @@
+#aside
+  float: right
+  width: $aside-width - 80px
+  min-height: 300px
+  margin: 20px 20px 0 0
+  display: inline
+  background: $aside-bg-color
+  +border-radius(10px)
+  +box-shadow(0 0 10px 0 $aside-shadow-color)
+
+  .section
+
+    h1
+      color: $aside-head-font-color
+      padding: 5px
+      background: $aside-head-bg-color
+      margin: 0
+      border-top: 3px solid $aside-head-border-color
+      text-align: center
+      font: 16px/32px bold
+
+    dl
+      margin: 10px 0 20px 0
+
+      dt
+        margin: 5px 20px
+        font: 16px/32px bold
+        color: $aside-dl-font-color
+        +bottom-line
+
+      dd
+        margin: 5px 20px 15px 20px
+        font: 14px/28px normal
+        color: $aside-dd-font-color
+
+        &>span
+          display: block
+          padding: 4px
+          color: $aside-dd-font-color
+
+        &>a
+          display: block
+          padding: 4px
+          color: $aside-dd-font-color
+
+          &:hover
+            background: $aside-link-hover-bg-color
+            color: $aside-dd-font-color
