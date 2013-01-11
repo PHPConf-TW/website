@@ -90,18 +90,19 @@ a {
   margin: 20px 0 50px 0;
   text-align: center;
   font-family: "Bowlby One SC", cursive;
+  text-shadow: 2px 2px 2px #333333;
 }
-/* line 29, ../sass/screen.sass */
+/* line 30, ../sass/screen.sass */
 .wrapper > header > h1 {
   font-size: 144px;
   line-height: 100%;
 }
-/* line 33, ../sass/screen.sass */
+/* line 34, ../sass/screen.sass */
 .wrapper > header > h2 {
   font-size: 72px;
   line-height: 100%;
 }
-/* line 37, ../sass/screen.sass */
+/* line 38, ../sass/screen.sass */
 .wrapper > header > .date {
   font-family: "BenchNine", sans-serif;
   margin-top: 20px;
@@ -109,22 +110,22 @@ a {
   line-height: 150%;
   color: #eba540;
 }
-/* line 44, ../sass/screen.sass */
+/* line 45, ../sass/screen.sass */
 .wrapper > header > .location {
   font-size: 36px;
   line-height: 100%;
 }
-/* line 48, ../sass/screen.sass */
+/* line 49, ../sass/screen.sass */
 .wrapper > #main-content {
   width: 600px;
   margin: 0 auto;
 }
-/* line 52, ../sass/screen.sass */
+/* line 53, ../sass/screen.sass */
 .wrapper > #main-content > .social {
   text-align: right;
   margin-bottom: 10px;
 }
-/* line 56, ../sass/screen.sass */
+/* line 57, ../sass/screen.sass */
 .wrapper > #main-content > .promo-content {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
@@ -136,18 +137,108 @@ a {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 62, ../sass/screen.sass */
+/* line 63, ../sass/screen.sass */
 .wrapper > #main-content p {
   color: black;
   line-height: 150%;
   margin-bottom: 20px;
 }
-/* line 67, ../sass/screen.sass */
+/* line 68, ../sass/screen.sass */
 .wrapper > footer {
   margin-top: 40px;
   text-align: center;
 }
-/* line 71, ../sass/screen.sass */
+/* line 72, ../sass/screen.sass */
 .wrapper > footer > p {
   line-height: 200%;
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 77, ../sass/screen.sass */
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* line 82, ../sass/screen.sass */
+  .wrapper > header > h1 {
+    font-size: 96px;
+  }
+  /* line 85, ../sass/screen.sass */
+  .wrapper > header > h2 {
+    font-size: 50px;
+  }
+  /* line 88, ../sass/screen.sass */
+  .wrapper > header > .date {
+    font-size: 20px;
+  }
+  /* line 91, ../sass/screen.sass */
+  .wrapper > header > .location {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 96, ../sass/screen.sass */
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* line 101, ../sass/screen.sass */
+  .wrapper > header > h1 {
+    font-size: 48px;
+  }
+  /* line 104, ../sass/screen.sass */
+  .wrapper > header > h2 {
+    font-size: 26px;
+  }
+  /* line 107, ../sass/screen.sass */
+  .wrapper > header > .date {
+    font-size: 60px;
+  }
+  /* line 110, ../sass/screen.sass */
+  .wrapper > header > .location {
+    font-size: 26px;
+  }
+  /* line 113, ../sass/screen.sass */
+  .wrapper > #main-content {
+    width: 80%;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  /* line 119, ../sass/screen.sass */
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* line 124, ../sass/screen.sass */
+  .wrapper > header > h1 {
+    display: none;
+  }
+  /* line 127, ../sass/screen.sass */
+  .wrapper > header > h2 {
+    font-size: 32px;
+  }
+  /* line 130, ../sass/screen.sass */
+  .wrapper > header > .date {
+    font-size: 60px;
+  }
+  /* line 133, ../sass/screen.sass */
+  .wrapper > header > .location {
+    font-size: 26px;
+  }
+  /* line 136, ../sass/screen.sass */
+  .wrapper > #main-content {
+    width: 80%;
+    font-size: 16px;
+  }
+  /* line 140, ../sass/screen.sass */
+  .wrapper > #main-content > .social {
+    display: none;
+  }
+  /* line 143, ../sass/screen.sass */
+  .wrapper > #main-content > .promo-content {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    padding: 10px;
+  }
 }
