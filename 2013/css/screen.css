@@ -1,0 +1,153 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../../../Applications/LiveReload.app/Contents/Resources/SASS.lrplugin/lib/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/*Common */
+/* line 12, ../sass/screen.sass */
+body {
+  background: #336699;
+  color: #eeeeee;
+}
+
+/* line 16, ../sass/screen.sass */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 20, ../sass/screen.sass */
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+/* line 24, ../sass/screen.sass */
+.wrapper > header {
+  margin: 20px 0 50px 0;
+  text-align: center;
+  font-family: "Bowlby One SC", cursive;
+}
+/* line 29, ../sass/screen.sass */
+.wrapper > header > h1 {
+  font-size: 144px;
+  line-height: 100%;
+}
+/* line 33, ../sass/screen.sass */
+.wrapper > header > h2 {
+  font-size: 72px;
+  line-height: 100%;
+}
+/* line 37, ../sass/screen.sass */
+.wrapper > header > .date {
+  font-family: "BenchNine", sans-serif;
+  margin-top: 20px;
+  font-size: 60px;
+  line-height: 150%;
+  color: #eba540;
+}
+/* line 44, ../sass/screen.sass */
+.wrapper > header > .location {
+  font-size: 36px;
+  line-height: 100%;
+}
+/* line 48, ../sass/screen.sass */
+.wrapper > #main-content {
+  width: 600px;
+  margin: 0 auto;
+}
+/* line 52, ../sass/screen.sass */
+.wrapper > #main-content > .social {
+  text-align: right;
+  margin-bottom: 10px;
+}
+/* line 56, ../sass/screen.sass */
+.wrapper > #main-content > .promo-content {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  padding: 30px;
+  background: #cccccc;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 62, ../sass/screen.sass */
+.wrapper > #main-content p {
+  color: black;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+/* line 67, ../sass/screen.sass */
+.wrapper > footer {
+  margin-top: 40px;
+  text-align: center;
+}
+/* line 71, ../sass/screen.sass */
+.wrapper > footer > p {
+  line-height: 200%;
+}
