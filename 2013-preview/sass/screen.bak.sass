@@ -1,0 +1,145 @@
+/*
+  Welcome to Compass.
+  In this file you should write your main styles. (or centralize your imports)
+  Import this file using the following HTML or equivalent:
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+@import compass/reset
+@import compass/css3
+
+/** Common **/
+
+body
+    background: #369
+    color: #eee
+
+a
+    color: #fff
+    text-decoration: none
+
+.wrapper
+    width: 960px
+    margin: 0 auto
+
+    & > header
+        margin: 20px 0 50px 0
+        text-align: center
+        font-family: 'Bowlby One SC', cursive
+        +single-text-shadow(2px, 2px, 2px, #333)
+
+        & > h1
+            font-size: 144px
+            line-height: 100%
+
+        & > h2
+            font-size: 72px
+            line-height: 100%
+
+        & > .date
+            font-family: 'BenchNine', sans-serif
+            margin-top: 20px
+            font-size: 60px
+            line-height: 150%
+            color: #EBA540
+
+        & > .location
+            font-size: 36px
+            line-height: 100%
+
+    & > #main-content
+        width: 600px
+        margin: 0 auto
+
+        & > .social
+            text-align: right
+            margin-bottom: 10px
+
+        & > .promo-content
+            +opacity(0.8)
+            padding: 30px
+            background: #ccc
+            +border-radius(10px)
+
+        p
+            color: #000
+            line-height: 150%
+            margin-bottom: 20px
+
+    & > footer
+        margin-top: 40px
+        text-align: center
+
+        & > p
+            line-height: 200%
+
+
+@media screen and (max-width: 1024px)
+    .wrapper
+        width: 100%
+        margin: 0 auto
+
+        & > header
+            & > h1
+                font-size: 96px
+
+            & > h2
+                font-size: 50px
+
+            & > .date
+                font-size: 20px
+
+            & > .location
+                font-size: 16px
+
+
+@media screen and (max-width: 480px)
+    .wrapper
+        width: 100%
+        margin: 0 auto
+
+        & > header
+            & > h1
+                font-size: 48px
+
+            & > h2
+                font-size: 26px
+
+            & > .date
+                font-size: 60px
+
+            & > .location
+                font-size: 26px
+
+        & > #main-content
+            width: 80%
+            font-size: 16px
+
+
+@media screen and (max-width: 320px)
+    .wrapper
+        width: 100%
+        margin: 0 auto
+
+        & > header
+            & > h1
+                display: none
+
+            & > h2
+                font-size: 32px
+
+            & > .date
+                font-size: 60px
+
+            & > .location
+                font-size: 26px
+
+        & > #main-content
+            width: 80%
+            font-size: 16px
+
+            & > .social
+                display: none
+
+            & > .promo-content
+                +opacity(0.8)
+                padding: 10px
