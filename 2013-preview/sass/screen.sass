@@ -35,9 +35,10 @@ body
 
             &:nth-child(3), &:nth-child(4)
                 float: right
+                font-size: 12px
 
 a
-    color: #F7BD33
+    color: #333
 
 .wrapper
     width: 800px
@@ -60,41 +61,49 @@ a
             background: url(../images/logo.png) no-repeat
 
         & > .date, & > .location
-            display: inline
+            color: #444
             font-size: 32px
+            line-height: 40px
             +single-text-shadow(0, 2px, 0, #fff)
+
+        & > .date
+            line-height: 80px
+            font-weight: 700
+            font-size: 48px
 
     & > #main-content
 
         & > .social
             text-align: center
+            margin-bottom: 40px
 
         & > section
             margin-bottom: 40px
 
             h1
-                color: #F7BD33
+                color: #444
+                text-align: center
                 font-size: 36px
                 line-height: 50px
-                padding-bottom: 20px
+                margin-bottom: 10px
 
             &#features h1
-                float: left
+                text-align: center
 
             p.note
-                float: left
+                text-align: center
                 margin-left: 20px
                 font-size: 14px
                 color: #999
-                line-height: 50px
 
             .content
+                font-family: Arial
                 width: 760px
                 margin-left: 40px
                 line-height: 150%
                 font-size: 16px
                 color: #444
-                +single-text-shadow(0, 2px, 0, #fff)
+                +single-text-shadow(0, 1px, 0, #fff)
 
                 & > p
                     margin-bottom: 10px
@@ -125,15 +134,16 @@ a
                     color: #F7BD33
 
                 .desc
+                    font-family: Arial
                     text-align: left
                     line-height: 150%
                     font-size: 16px
                     color: #444
-                    +single-text-shadow(0, 2px, 0, #fff)
+                    +single-text-shadow(0, 1px, 0, #fff)
 
             .more
                 margin: 20px 0
-                text-align: right
+                text-align: center
                 font-size: 18px
                 color: #666
 
