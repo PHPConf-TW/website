@@ -54,17 +54,26 @@ hr {
   height: 22px;
 }
 h1,
-h2 {
-  display: none;
-}
+h2,
 h3 {
   font-family: 'Arial Black';
-  font-size: 2em;
   color: #083038;
   margin: 10px 0;
   text-transform: uppercase;
 }
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+}
 /*1.1 wrapper*/
+.hidden {
+  display: none;
+}
 /*1.2 header*/
 header {
   background: url('../images/bg.png') 0px -35px repeat-x;
