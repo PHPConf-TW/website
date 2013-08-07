@@ -56,20 +56,27 @@ hr {
 }
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6,
+h7 {
   font-family: 'Arial Black';
   color: #083038;
   margin: 10px 0;
   text-transform: uppercase;
 }
 h1 {
-  font-size: 3em;
+  font-size: 200%;
 }
 h2 {
-  font-size: 2.5em;
+  font-size: 180%;
 }
 h3 {
-  font-size: 2em;
+  font-size: 160%;
+}
+h4 {
+  font-size: 120%;
 }
 /* 1.1 wrapper*/
 /* 1.2 header*/
@@ -206,6 +213,20 @@ nav ul li:last-child {
 }
 .text article {
   padding: 15px;
+  font-size: 1.6em;
+}
+.text article ul {
+  padding-left: 20px;
+}
+.text article li {
+  padding-left: 10px;
+  list-style: disc;
+}
+.text article a {
+  color: #666666;
+}
+.text article a:hover {
+  color: #333333;
 }
 /* 1.6 footer*/
 footer {
