@@ -268,35 +268,39 @@ a
                 font-size: 20px
                 line-height: 150%
 
-        #main-content
-            width: 100%
-            font-size: 16px
+    #main-content
 
-            & > .social
-                margin-bottom: 20px
+        width: 100%
+        font-size: 16px
 
-            & > section
+        & > .social
+            margin-bottom: 20px
 
-                table
+        & > section
+
+            .content
+                width: 100%
+
+            table
+                width: 100%
+
+                td
+                    display: block
+                    padding: 10px
+
+                .subject
+                    text-align: center
                     width: 100%
+                    font-size: 32px
+                    color: #999
 
-                    td
-                        display: block
-                        padding: 10px
+                .speaker
+                    text-align: center
+                    width: 100%
+                    font-size: 24px
+                    color: #F7BD33
 
-                    .subject
-                        text-align: center
-                        width: 100%
-                        font-size: 32px
-                        color: #999
-
-                    .speaker
-                        text-align: center
-                        width: 100%
-                        font-size: 24px
-                        color: #F7BD33
-
-                    .desc
+                .desc
 
 
 @media screen and (max-width: 320px)
@@ -319,17 +323,18 @@ a
                 a
                     font-size: 20px
 
-    .wrapper
+    #main-content
 
-        #main-content
+        & > .social
+            margin-left: 20px
 
-            & > .social
-                margin-left: 20px
+        & > section
 
-            & > section
+            h1
+                font-size: 24px
 
-                h1
-                    font-size: 24px
+            .content
+                width: 100%
 
-                .content, td
-                    font-size: 16px
+            .content, td
+                font-size: 16px
