@@ -115,7 +115,7 @@
             {
                 "speaker": "Jace Ju",
                 "subject": "Composer 入門",
-                "description": "",
+                "description": "Composer 是 PHP 新一代的套件管理工具，越來越多的專案已經改用 Composer 來管理。講者將為大家帶來 Composer 的使用方法，並介紹 Composer 在實務應用的心得。",
                 "start_time": "15:30",
                 "end_time": "16:10",
                 "room": "r0",
