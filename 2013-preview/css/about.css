@@ -1,4 +1,4 @@
-.speaker {
+.staff {
     width: 280px;
     padding: 10px;
     margin: 10px;
@@ -6,9 +6,6 @@
     font-size: 14px;
     color: #595959;
     letter-spacing: 1px;
-}
-#jonathan {
-    width: 560px;
 }
 .avatar {
     text-align: center;
@@ -24,7 +21,7 @@
     text-align: center;
 }
 
-.profile .company {
+.profile .title {
     font-size: 1.2em;
     line-height: 2;
     text-align: center;

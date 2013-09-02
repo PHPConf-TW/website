@@ -25,21 +25,27 @@
 <body>
     <div id="out_wrapper">
         <h1 class="hidden">PHPConf Taiwan 2013</h1>
-        <nav>
+        <nav id="navbar">
             <h2 class="hidden">主選單</h2>
             <ul>
-                <li><a href="speakers.html" class="disabled">speaker</a>
+                <li>
+                    <a href="index.html" class="home">Home</a>
                 </li>
-                <li><a href="schedule.html">schedule</a>
+                <li>
+                    <a href="schedule.html">Schedule</a>
                 </li>
-                <li><a href="index.html" class="home">home</a>
+                <li>
+                    <a href="speakers.html" class="disabled">Speakers</a>
                 </li>
-                <li><a href="sponsorship.html" class="disabled">sponsorship</a>
+                <li>
+                    <a href="sponsorships.html" class="disabled">Sponsorships</a>
                 </li>
-                <li><a href="about.html" class="disabled">about</a>
+                <li>
+                    <a href="about.html" class="disabled">About</a>
                 </li>
             </ul>
         </nav>
+        <!--
         <header>
             <div class="mountain">
                 <a href="index.html">
@@ -55,7 +61,8 @@
                 <div class="elephant"></div>
             </div>
         </header>
-        <div class="social_network">
+        -->
+        <div class="social">
             <div class="inside">
                 <!-- Place this tag where you want the +1 button to render. -->
                 <div class="g-plusone" data-size="medium"></div>
@@ -99,7 +106,7 @@
                 <li class="level-all">所有 PHP 開發者</li>
             </ul>
         </div>
-        <div class="text">
+        <div class="container">
             <article>
                 <table class="schedule-table" cellpadding="0" cellspacing="0">
                     <thead>
@@ -132,7 +139,9 @@
                                 <div class="level-all">
                                     <section class="room0">
                                         <h2>PHP 網站攻防實務</h2>
-                                        <p class="speaker"><a href="speakers.html#allenown">Allen Own</a> &amp; <a href="speakers.html#orangetsai">Orange Tsai</a>
+                                        <p class="speaker">
+                                            <a href="speakers.html#allenown">Allen Own</a>&amp;
+                                            <a href="speakers.html#orangetsai">Orange Tsai</a>
                                         </p>
                                         <div class="description">
                                             <p>在網路資訊安全越顯重要的今天，您如何保護您的網站資料不被竊取呢？瞭解駭客的心理與技術，瞭解網站程式有何漏洞，都是現在 Web 開發必須熟知的課題。這次， PHPConf 邀請到了 Allen Own 與 Orange Tsai 兩位台灣資安界的高手，他們將透過精心設計的攻防實戰，告訴大家資安的重要性！</p>
@@ -150,7 +159,8 @@
                                 <div class="level-senior">
                                     <section class="room0">
                                         <h2>實戰 Phalcon Kernel</h2>
-                                        <p class="speaker"><a href="speakers.html#racklin">Racklin</a>
+                                        <p class="speaker">
+                                            <a href="speakers.html#racklin">Racklin</a>
                                         </p>
 
                                         <div class="description">
@@ -163,7 +173,8 @@
                                 <div class="level-all">
                                     <section class="room2">
                                         <h2>Evernote SDK for PHP 你所不知道的 Evernote</h2>
-                                        <p class="speaker"><a href="speakers.html#rex">Rex</a>
+                                        <p class="speaker">
+                                            <a href="speakers.html#rex">Rex</a>
                                         </p>
 
                                         <div class="description">
@@ -182,7 +193,8 @@
                                 <div class="level-senior">
                                     <section class="room0">
                                         <h2>SiteTag 系統窮人調校法經驗談</h2>
-                                        <p class="speaker"><a href="speakers.html#tsung">Tsung</a>
+                                        <p class="speaker">
+                                            <a href="speakers.html#tsung">Tsung</a>
                                         </p>
                                         <div class="description">
                                             <p>當網站規模逐漸擴大時，開發者就一定會面臨到大流量、大資料量的處理。而在台灣，這樣的環境與經驗通常只掌握在大型企業手中，一般開發者很少能接觸到。 PHPConf 這次邀請到 tsung ，他將透過開發 SiteTag 的經驗，來為大家說明如何處理巨量資料。</p>
@@ -194,11 +206,13 @@
                                 <div class="level-senior">
                                     <section class="room2">
                                         <h2>MagentoCommerce Extension 開發</h2>
-                                        <p class="speaker"><a href="speakers.html#kiang">Kiang</a>
+                                        <p class="speaker">
+                                            <a href="speakers.html#kiang">Kiang</a>
                                         </p>
 
                                         <div class="description">
-                                            <p>MagentoCommerce 是目前 (2013.02) 世界流量前百萬個網站中，<a href="http://twpug.net/modules/newbb/viewtopic.php?topic_id=7347">最被廣泛使用的電子商務系統</a>，基於 Zend Framework 1 開發。不過因為架構龐大且公開文件稀少與版本混亂，讓它的學習曲線異常陡峭。透過這個主題希望能夠提供敲門磚給更多朋友，學習這個難得的電子商務系統典範。</p>
+                                            <p>MagentoCommerce 是目前 (2013.02) 世界流量前百萬個網站中，
+                                                <a href="http://twpug.net/modules/newbb/viewtopic.php?topic_id=7347">最被廣泛使用的電子商務系統</a>，基於 Zend Framework 1 開發。不過因為架構龐大且公開文件稀少與版本混亂，讓它的學習曲線異常陡峭。透過這個主題希望能夠提供敲門磚給更多朋友，學習這個難得的電子商務系統典範。</p>
                                         </div>
                                     </section>
                                 </div>
@@ -216,7 +230,8 @@
                                 <div class="level-junior">
                                     <section class="room0">
                                         <h2>用 Gearman 與 CodeIgniter 打造 PHP 排程系統</h2>
-                                        <p class="speaker"><a href="speakers.html#appleboy">Appleboy</a>
+                                        <p class="speaker">
+                                            <a href="speakers.html#appleboy">Appleboy</a>
                                         </p>
 
                                         <div class="description">
@@ -229,7 +244,8 @@
                                 <div class="level-senior">
                                     <section class="room2">
                                         <h2>進擊的快取 - 以 Drupal 的快取核心為例</h2>
-                                        <p class="speaker"><a href="speakers.html#jimmy">Jimmy</a>
+                                        <p class="speaker">
+                                            <a href="speakers.html#jimmy">Jimmy</a>
                                         </p>
 
                                         <div class="description">
@@ -249,7 +265,8 @@
                                 <div class="level-senior">
                                     <section class="room0">
                                         <h2>5 Easy Ways To Speed Up Your Web Application</h2>
-                                        <p class="speaker"><a href="speakers.html#jonathan">Jonathan Maron</a>
+                                        <p class="speaker">
+                                            <a href="speakers.html#jonathan">Jonathan Maron</a>
                                         </p>
 
                                         <div class="description">
@@ -264,7 +281,8 @@
                                 <div class="level-newbie">
                                     <section class="room2">
                                         <h2>Slim 從零開始</h2>
-                                        <p class="speaker"><a href="speakers.html#alansun">Alansun</a>
+                                        <p class="speaker">
+                                            <a href="speakers.html#alansun">Alansun</a>
                                         </p>
 
                                         <div class="description">
@@ -283,7 +301,8 @@
                                 <div class="level-all">
                                     <section class="room0">
                                         <h2>實戰 AssetToolkit</h2>
-                                        <p class="speaker"><a href="speakers.html#c9s">c9s</a>
+                                        <p class="speaker">
+                                            <a href="speakers.html#c9s">c9s</a>
                                         </p>
 
                                         <div class="description">
@@ -296,7 +315,8 @@
                                 <div class="level-junior">
                                     <section class="room2">
                                         <h2>從 CI 跳槽到 Laravel</h2>
-                                        <p class="speaker"><a href="speakers.html#benjamin">Benjamin Peng (波卡Poka)</a>
+                                        <p class="speaker">
+                                            <a href="speakers.html#benjamin">Benjamin Peng (波卡Poka)</a>
                                         </p>
                                         <div class="description">
                                             <p>在本議程中，講者將以自己的經驗和常見的需求案例，談談在多變的客戶需求下， CodeIgniter 所謂零設定的框架架構將會帶來什麼樣的困擾，以及切換到 Laravel 之後，將如何更有效率地解決這些問題。
@@ -318,7 +338,8 @@
                                 <div class="level-junior">
                                     <section class="room0">
                                         <h2>PHP 也是可以很 event - 用 PHP 打造一個 Realtime Web</h2>
-                                        <p class="speaker"><a href="speakers.html#ricky">Ricky</a>
+                                        <p class="speaker">
+                                            <a href="speakers.html#ricky">Ricky</a>
                                         </p>
                                         <div class="description">
                                             <p>PHP 給人的印象往往是無法在大流量下做到即時反應，而且離不開 Apache Web Server 。講者將說明 PHP 只要透過 event extension ，也可以用來處理大量連線問題。並針對 comet 技術與 c10k 問題作逐一的探討。</p>
@@ -330,7 +351,8 @@
                                 <div class="level-all">
                                     <section class="room2">
                                         <h2>Composer 入門與應用</h2>
-                                        <p class="speaker"><a href="speakers.html#jaceju">Jace Ju</a>
+                                        <p class="speaker">
+                                            <a href="speakers.html#jaceju">Jace Ju</a>
                                         </p>
                                         <div class="description">
                                             <p>Composer 是 PHP 新一代的套件管理工具，越來越多的專案已經改用 Composer 來管理。講者將為大家帶來 Composer 的使用方法，並介紹 Composer 在實務應用的心得。
@@ -363,11 +385,17 @@
         </div>
         <footer>
             <p>PHPCONF TAIWAN 連絡人： Jace Ju (大澤木小鐵)
-                <br/>MAIL: <a href="mailto:contact@phpconf.tw">contact@phpconf.tw</a>
+                <br/>MAIL:
+                <a href="mailto:contact@phpconf.tw">contact@phpconf.tw</a>
             </p>
         </footer>
     </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-1.10.1.min.js"><\/script>')
+    </script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/common.js"></script>
 </body>
 
 </html>

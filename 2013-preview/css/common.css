@@ -49,11 +49,11 @@ header {
     max-width: 980px;
     margin: 0 auto;
 }
-.social_network {
+.social {
     background: url('../images/bg.png') 0px -335px repeat-x;
     height: 40px;
 }
-.social_network .inside {
+.social .inside {
     max-width: 980px;
     margin: 0 auto;
     padding: 13px 20px 0;
@@ -109,6 +109,9 @@ header {
 nav {
     background: url('../images/bg.png') repeat-x;
     height: 35px;
+    width: 100%;
+    position: relative;
+    z-index: 99;
 }
 nav ul {
     max-width: 980px;
@@ -145,25 +148,25 @@ nav ul li:first-child {
 nav ul li:last-child {
     margin: 10px 0px 5px 0px;
 }
-.text {
+.container {
     max-width: 1000px;
     margin: 0 auto;
 }
-.text article {
+.container article {
     padding: 15px;
     font-size: 1em;
 }
-.text article ul {
+.container article ul {
     padding-left: 20px;
 }
-.text article li {
+.container article li {
     padding-left: 10px;
     list-style: disc;
 }
-.text article a {
+.container article a {
     color: #666666;
 }
-.text article a:hover {
+.container article a:hover {
     color: #333333;
 }
 .page-title {
@@ -195,10 +198,6 @@ nav ul li:last-child {
 }
 .page-title div article a {
     color: #ffbf00;
-}
-.news-more {
-    width:250px;
-    text-align: right;
 }
 .page-title div article:last-child {
     padding: 0;

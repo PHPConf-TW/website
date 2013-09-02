@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="zh-tw">
+<html lang="zh-tw">
 
 <head>
     <meta charset="utf-8">
@@ -25,23 +25,27 @@
 <body>
     <div id="out_wrapper">
         <h1 class="hidden">PHPConf Taiwan 2013</h1>
-        <nav>
+        <nav id="navbar">
             <h2 class="hidden">主選單</h2>
             <ul>
-
-                <li><a href="speakers.html" class="disabled">speaker</a>
+                <li>
+                    <a href="index.html" class="home">Home</a>
                 </li>
-                <li><a href="schedule.html">schedule</a>
+                <li>
+                    <a href="schedule.html">Schedule</a>
                 </li>
-                <li><a href="index.html" class="home">home</a>
+                <li>
+                    <a href="speakers.html" class="disabled">Speakers</a>
                 </li>
-                <li><a href="sponsorship.html" class="disabled">sponsorship</a>
+                <li>
+                    <a href="sponsorships.html" class="disabled">Sponsorships</a>
                 </li>
-                <li><a href="about.html" class="disabled">about</a>
+                <li>
+                    <a href="about.html" class="disabled">About</a>
                 </li>
-
             </ul>
         </nav>
+        <!--
         <header>
             <div class="mountain">
                 <a href="index.html">
@@ -55,7 +59,8 @@
                 <div class="elephant"></div>
             </div>
         </header>
-        <div class="social_network">
+        -->
+        <div class="social">
             <div class="inside">
                 <!-- Place this tag where you want the +1 button to render. -->
                 <div class="g-plusone" data-size="medium"></div>
@@ -93,18 +98,18 @@
                 <h3>SPEAKER</h3>
             </div>
         </div>
-        <div class="text">
+        <div class="container">
             <article>
-                <div class="speaker-container">
-                    <p>依議程時間排序</p>
-                    <div class="speaker">
+                <p>依議程時間排序</p>
+                <div class="container">
+                    <div id="allenown" class="speaker">
                         <div class="avatar">
                             <img src="images/speakers/default.png" />
                         </div>
                         <div class="profile">
                             <p class="name">Allen Own</p>
                             <!--
-<ul>
+                            <ul>
                                 <li><a href="#" class="facebook">Facebook</a>
                                 </li>
                                 <li><a href="#" class="g-plus">Google+</a>
@@ -112,7 +117,7 @@
                                 <li><a href="#" class="g-plus">Twitter</a>
                                 </li>
                             </ul>
--->
+                            -->
                             <p class="company">DevCore</p>
                             <div class="description">
                                 <p>/dev/null</p>
@@ -120,14 +125,14 @@
                         </div>
                     </div>
 
-                    <div class="speaker">
+                    <div id="orangetsai" class="speaker">
                         <div class="avatar">
                             <img src="images/speakers/default.png" />
                         </div>
                         <div class="profile">
                             <p class="name">Orange Tsai</p>
                             <!--
-<ul>
+                            <ul>
                                 <li><a href="#" class="facebook">Facebook</a>
                                 </li>
                                 <li><a href="#" class="g-plus">Google+</a>
@@ -135,7 +140,7 @@
                                 <li><a href="#" class="g-plus">Twitter</a>
                                 </li>
                             </ul>
--->
+                            -->
                             <p class="company">臺灣科技大學</p>
                             <div class="description">
                                 <ul>
@@ -148,14 +153,14 @@
                         </div>
                     </div>
 
-                    <div class="speaker">
+                    <div id="racklin" class="speaker">
                         <div class="avatar">
                             <img src="images/speakers/default.png" />
                         </div>
                         <div class="profile">
                             <p class="name">林慶忠 (Rack Lin 阿土伯)</p>
                             <!--
-<ul>
+                            <ul>
                                 <li><a href="#" class="facebook">Facebook</a>
                                 </li>
                                 <li><a href="#" class="g-plus">Google+</a>
@@ -163,7 +168,7 @@
                                 <li><a href="#" class="g-plus">Twitter</a>
                                 </li>
                             </ul>
--->
+                            -->
                             <p class="company">VIVIPOS Co., Ltd. 技術總監</p>
                             <div class="description">
                                 <p>熱情於自由軟體開發與研究的科技老宅，長期關注於 PHP / JavaScript / Java 相關的技術，目前移情於 Scala 之中。</p>
@@ -172,14 +177,14 @@
                         </div>
                     </div>
 
-                    <div class="speaker">
+                    <div id="rex" class="speaker">
                         <div class="avatar">
                             <img src="images/speakers/default.png" />
                         </div>
                         <div class="profile">
                             <p class="name">Rex</p>
                             <!--
-<ul>
+                            <ul>
                                 <li><a href="#" class="facebook">Facebook</a>
                                 </li>
                                 <li><a href="#" class="g-plus">Google+</a>
@@ -187,22 +192,22 @@
                                 <li><a href="#" class="g-plus">Twitter</a>
                                 </li>
                             </ul>
--->
-                            <p class="company">&nbsp;</p>
-                            <div class="description">
+                            -->
+                            <p class="company hidden">&nbsp;</p>
+                            <div class="description hidden">
                                 &nbsp;
                             </div>
                         </div>
                     </div>
 
-                    <div class="speaker">
+                    <div id="tsung" class="speaker">
                         <div class="avatar">
                             <img src="images/speakers/default.png" />
                         </div>
                         <div class="profile">
                             <p class="name">Tsung</p>
                             <!--
-<ul>
+                            <ul>
                                 <li><a href="#" class="facebook">Facebook</a>
                                 </li>
                                 <li><a href="#" class="g-plus">Google+</a>
@@ -210,7 +215,7 @@
                                 <li><a href="#" class="g-plus">Twitter</a>
                                 </li>
                             </ul>
--->
+                            -->
                             <p class="company">SiteTag</p>
                             <div class="description">
                                 <p>對新奇的事物都很有興趣，喜歡簡單的東西，過簡單的生活。</p>
@@ -218,14 +223,14 @@
                         </div>
                     </div>
 
-                    <div class="speaker">
+                    <div id="appleboy" class="speaker">
                         <div class="avatar">
                             <img src="images/speakers/default.png" />
                         </div>
                         <div class="profile">
                             <p class="name">吳柏毅 (appleboy)</p>
                             <!--
-<ul>
+                            <ul>
                                 <li><a href="#" class="facebook">Facebook</a>
                                 </li>
                                 <li><a href="#" class="g-plus">Google+</a>
@@ -233,7 +238,7 @@
                                 <li><a href="#" class="g-plus">Twitter</a>
                                 </li>
                             </ul>
--->
+                            -->
                             <p class="company">瑞昱半導體股份有限公司．工程師</p>
                             <div class="description">
                                 <p>目前擔任 Sencha Touch 手機網頁及嵌入式系統 Android Linux Kernel 開發整合軟體工程師。</p>
@@ -251,14 +256,14 @@
                         </div>
                     </div>
 
-                    <div class="speaker">
+                    <div id="jimmy" class="speaker">
                         <div class="avatar">
                             <img src="images/speakers/default.png" />
                         </div>
                         <div class="profile">
                             <p class="name">Jimmy</p>
                             <!--
-<ul>
+                            <ul>
                                 <li><a href="#" class="facebook">Facebook</a>
                                 </li>
                                 <li><a href="#" class="g-plus">Google+</a>
@@ -266,7 +271,7 @@
                                 <li><a href="#" class="g-plus">Twitter</a>
                                 </li>
                             </ul>
--->
+                            -->
                             <p class="company">NETivism Co-founder</p>
                             <div class="description">
                                 <p>對網路公民媒體 + Open Soruce 特別有興趣</p>
@@ -274,14 +279,14 @@
                         </div>
                     </div>
 
-                    <div class="speaker">
+                    <div id="jonathan" class="speaker">
                         <div class="avatar">
                             <img src="images/speakers/default.png" />
                         </div>
                         <div class="profile">
                             <p class="name">Jonathan Maron</p>
                             <!--
-<ul>
+                            <ul>
                                 <li><a href="#" class="facebook">Facebook</a>
                                 </li>
                                 <li><a href="#" class="g-plus">Google+</a>
@@ -289,7 +294,7 @@
                                 <li><a href="#" class="g-plus">Twitter</a>
                                 </li>
                             </ul>
--->
+                            -->
                             <p class="company">The Imaging Source / Senior Web Developer</p>
                             <div class="description">
                                 <p>I have been working in the web application conceptualization and development space since 1996. My current position is with an international company, specialized in the production of industrial machine vision products, application software and software components for developers.</p>
@@ -301,14 +306,14 @@
                         </div>
                     </div>
 
-                    <div class="speaker">
+                    <div id="alansun" class="speaker">
                         <div class="avatar">
                             <img src="images/speakers/default.png" />
                         </div>
                         <div class="profile">
                             <p class="name">Alansun</p>
                             <!--
-<ul>
+                            <ul>
                                 <li><a href="#" class="facebook">Facebook</a>
                                 </li>
                                 <li><a href="#" class="g-plus">Google+</a>
@@ -316,7 +321,7 @@
                                 <li><a href="#" class="g-plus">Twitter</a>
                                 </li>
                             </ul>
--->
+                            -->
                             <p class="company">穎客資訊前端工程師</p>
                             <div class="description">
                                 <p>專長：SlimPHP 、 Web 前端技術。</p>
@@ -325,14 +330,14 @@
                         </div>
                     </div>
 
-                    <div class="speaker">
+                    <div id="c9s" class="speaker">
                         <div class="avatar">
                             <img src="images/speakers/default.png" />
                         </div>
                         <div class="profile">
                             <p class="name">林佑安 (c9s)</p>
                             <!--
-<ul>
+                            <ul>
                                 <li><a href="#" class="facebook">Facebook</a>
                                 </li>
                                 <li><a href="#" class="g-plus">Google+</a>
@@ -340,22 +345,22 @@
                                 <li><a href="#" class="g-plus">Twitter</a>
                                 </li>
                             </ul>
--->
-                            <p class="company">&nbsp;</p>
+                            -->
+                            <p class="company hidden">&nbsp;</p>
                             <div class="description">
                                 <p>喜愛編程、開源專案，參與多項開源專案開發，從 Perl, C/C++, JavaScript, CoffeeScript, Haskell, PHP, Python, Java, Obj-C 等皆有涉獵。主要從事 PHP 及 Perl 相關開發工作，最近幾年於 Github 發表許多 PHP 相關項目，試圖改善 PHP 開發環境。</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="speaker">
+                    <div id="benjamin" class="speaker">
                         <div class="avatar">
                             <img src="images/speakers/default.png" />
                         </div>
                         <div class="profile">
                             <p class="name">Benjamin Peng (波卡Poka)</p>
                             <!--
-<ul>
+                            <ul>
                                 <li><a href="#" class="facebook">Facebook</a>
                                 </li>
                                 <li><a href="#" class="g-plus">Google+</a>
@@ -363,22 +368,22 @@
                                 <li><a href="#" class="g-plus">Twitter</a>
                                 </li>
                             </ul>
--->
+                            -->
                             <p class="company">彭澄科技有限公司</p>
-                            <div class="description">
+                            <div class="description hidden">
                                 <p>&nbsp;</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="speaker">
+                    <div id="ricky" class="speaker">
                         <div class="avatar">
                             <img src="images/speakers/default.png" />
                         </div>
                         <div class="profile">
                             <p class="name">Ricky</p>
                             <!--
-<ul>
+                            <ul>
                                 <li><a href="#" class="facebook">Facebook</a>
                                 </li>
                                 <li><a href="#" class="g-plus">Google+</a>
@@ -386,7 +391,7 @@
                                 <li><a href="#" class="g-plus">Twitter</a>
                                 </li>
                             </ul>
--->
+                            -->
                             <p class="company">Niceday.tw 雜工</p>
                             <div class="description">
                                 <p>喜歡拿PHP來作不正經的事，反正一切都沒問題。</p>
@@ -394,14 +399,14 @@
                         </div>
                     </div>
 
-                    <div class="speaker">
+                    <div id="jaceju" class="speaker">
                         <div class="avatar">
                             <img src="images/speakers/default.png" />
                         </div>
                         <div class="profile">
                             <p class="name">大澤木小鐵 (Jace Ju)</p>
                             <!--
-<ul>
+                            <ul>
                                 <li><a href="#" class="facebook">Facebook</a>
                                 </li>
                                 <li><a href="#" class="g-plus">Google+</a>
@@ -409,7 +414,7 @@
                                 <li><a href="#" class="g-plus">Twitter</a>
                                 </li>
                             </ul>
--->
+                            -->
                             <p class="company">KKBOX 資深工程師</p>
                             <div class="description">
                                 <p>一個喜歡 PHP 及其他網站開發技術的程式工作者，並沈迷在這個世界裡，進而去探索這些技術有趣的地方。 分享技術的理念是：取之於網路，回饋於網路；並且讓大家能感受到自己學習到新東西的快樂。</p>
@@ -421,11 +426,23 @@
         </div>
         <footer>
             <p>PHPCONF TAIWAN 連絡人： Jace Ju (大澤木小鐵)
-                <br/>MAIL: <a href="mailto:contact@phpconf.tw">contact@phpconf.tw</a>
+                <br/>MAIL:
+                <a href="mailto:contact@phpconf.tw">contact@phpconf.tw</a>
             </p>
         </footer>
     </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/jquery-1.10.1.min.js"><\/script>')
+    </script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script>
+    $('.container').isotope({
+        itemSelector: '.speaker'
+    });
+    </script>
 </body>
 
 </html>
