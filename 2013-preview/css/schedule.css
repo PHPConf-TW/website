@@ -20,6 +20,8 @@ table td {
 }
 table .time {
     width: 20%;
+    padding-top: 20px;
+    font-size: 1.2em;
     text-align: right;
 }
 table .speaker {
@@ -30,52 +32,54 @@ table tr.break td {
     color: #fff;
     background-color: #999;
 }
-table .head-time {
+table thead .time {
     color:#FFF;
     width:130px;
     letter-spacing: 1px;
     background-color:#5d5d5d;
 }
-table .head-room0 {
+table thead .room0 {
     color:#FFF;
     letter-spacing: 1px;
     background-color:#1f79ff;
 }
-table .head-room2 {
+table thead .room2 {
     color:#FFF;
     letter-spacing: 1px;
     background-color:#7ecef4;
+}
+table .sign-in h2,
+table .openning h2,
+table .lunch h2,
+table .teatime h2,
+table .lighting-talk h2,
+table .closing h2 {
+    text-align: center;
+}
+table .session section {
+    position:relative;
+    padding:0 10px;
+    min-height:160px;
+}
+table .session .room0 {
+    border-left:10px solid #1f79ff;
+}
+table .session .room2 {
+    border-left:10px solid #7ecef4;
 }
 table .session .subject {
     font-size: 16px;
     font-weight:bold;
     letter-spacing: 1px;
 }
-table .schedule-more-subject {
-    width: 300px;
-    font-size: 16px;
-    font-weight:bold;
-    letter-spacing: 1px;
-}
-table .schedule-name {
+table .session .speaker {
     font-size: 14px;
     color: #595959;
     letter-spacing: 1px;
 }
-table .schedule-content {
+table .session .description {
+    margin-top: 10px;
     font-size: 13px;
     letter-spacing: 1px;
     line-height: 1.6;
-}
-table .schedule-more-content {
-    font-size: 13px;
-    letter-spacing: 1px;
-    text-align: left;
-    line-height: 1.6;
-}
-table .more {
-    font-size: 13px;
-    letter-spacing: 1px;
-    margin-right: 10px;
-    text-align: right;
 }
