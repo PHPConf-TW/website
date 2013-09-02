@@ -1,0 +1,81 @@
+table {
+    border-collapse: collapse;
+}
+table h2 {
+    font-size: 120%;
+}
+table h3 {
+    font-size: 110%;
+}
+table th {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+table td {
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    background: #eee;
+}
+table .time {
+    width: 20%;
+    text-align: right;
+}
+table .speaker {
+    color: #666;
+}
+table tr.break td {
+    text-align: center;
+    color: #fff;
+    background-color: #999;
+}
+table .head-time {
+    color:#FFF;
+    width:130px;
+    letter-spacing: 1px;
+    background-color:#5d5d5d;
+}
+table .head-room0 {
+    color:#FFF;
+    letter-spacing: 1px;
+    background-color:#1f79ff;
+}
+table .head-room2 {
+    color:#FFF;
+    letter-spacing: 1px;
+    background-color:#7ecef4;
+}
+table .session .subject {
+    font-size: 16px;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+table .schedule-more-subject {
+    width: 300px;
+    font-size: 16px;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+table .schedule-name {
+    font-size: 14px;
+    color: #595959;
+    letter-spacing: 1px;
+}
+table .schedule-content {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+table .schedule-more-content {
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align: left;
+    line-height: 1.6;
+}
+table .more {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    text-align: right;
+}

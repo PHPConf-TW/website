@@ -1,0 +1,45 @@
+.speaker-description-left {
+    background: #d3f1f3;
+    width: 50px;
+}
+.speaker-description-right {
+    background: #d3f1f3;
+}
+.time {
+    background: #d3f1f3;
+}
+.head-room0 {
+    background: #d3f1f3;
+}
+.room1 {
+    background: #d3f1f3;
+}
+.speaker-description-middle {
+    background: #d3f1f3;
+}
+/* 1.4 logo */
+
+/* 1.5 article */
+
+.sponsorship-content p {
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-size: 15px;
+}
+.speaker_li {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.schedule-subtitle td {
+    background: #083038;
+    border:0px;
+}
+.speakers-table td {
+    background: #d3f1f3;
+    border:0px;
+}
+.sponsorship-table td {
+    background: #d3f1f3;
+    border:0px;
+}
