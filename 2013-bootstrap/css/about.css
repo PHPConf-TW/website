@@ -1,0 +1,32 @@
+.staff {
+    width: 280px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #595959;
+    letter-spacing: 1px;
+    background: #eee;
+}
+.avatar {
+    text-align: center;
+    padding: 20px;
+}
+.avatar img {
+    width: 200px;
+}
+.profile .name {
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 2;
+    text-align: center;
+}
+
+.profile .title {
+    font-size: 1.2em;
+    line-height: 2;
+    text-align: center;
+}
+.profile .description {
+    margin-top: 20px;
+}

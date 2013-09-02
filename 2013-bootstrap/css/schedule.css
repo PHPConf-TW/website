@@ -1,0 +1,134 @@
+.legend {
+    float: left;
+}
+.legend li {
+    list-style: none;
+    color: #fff;
+    float: left;
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    width: 220px;
+    background: url(../images/legend.png) no-repeat;
+}
+.legend .level-all {
+    padding-left: 94px;
+    background-position: 0 -120px;
+}
+.legend .level-senior {
+    padding-left: 60px;
+    background-position: 0 -80px;
+}
+.legend .level-junior {
+    padding-left: 60px;
+    background-position: 0 -40px;
+}
+.legend .level-newbie {
+    padding-left: 60px;
+    background-position: 0 0;
+}
+table {
+    border-collapse: collapse;
+}
+table h2 {
+    font-size: 120%;
+}
+table h3 {
+    font-size: 110%;
+}
+table th {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+table td {
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    background: #eee;
+}
+table .time {
+    width: 20%;
+    padding-top: 20px;
+    font-size: 1.2em;
+    text-align: right;
+}
+table .speaker {
+    color: #666;
+}
+table tr.break td {
+    text-align: center;
+    color: #fff;
+    background-color: #999;
+}
+table thead .time {
+    color:#FFF;
+    width:130px;
+    letter-spacing: 1px;
+    background-color:#5d5d5d;
+}
+table thead .room0 {
+    color:#FFF;
+    letter-spacing: 1px;
+    background-color:#1f79ff;
+}
+table thead .room2 {
+    color:#FFF;
+    letter-spacing: 1px;
+    background-color:#7ecef4;
+}
+table .sign-in h2,
+table .openning h2,
+table .lunch h2,
+table .teatime h2,
+table .lighting-talk h2,
+table .closing h2 {
+    text-align: center;
+}
+table .session section {
+    position:relative;
+    padding:0 10px;
+    margin-left: 30px;
+    min-height:160px;
+    background: #eee;
+}
+table .session .room0 {
+    border-left:10px solid #1f79ff;
+}
+table .session .room2 {
+    border-left:10px solid #7ecef4;
+}
+table .session .subject {
+    font-size: 16px;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+table .session .speaker {
+    font-size: 14px;
+    color: #595959;
+    letter-spacing: 1px;
+}
+table .session .description {
+    margin-top: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+.session .level-all,
+.session .level-newbie,
+.session .level-junior,
+.session .level-senior {
+    background: url(../images/level.png) no-repeat;
+}
+.session .level-all {
+    background-position: -90px bottom;
+}
+.session .level-senior {
+    background-position: -60px bottom;
+}
+.session .level-junior {
+    background-position: -30px bottom;
+}
+.session .level-newbie {
+    background-position: 0 bottom;
+}

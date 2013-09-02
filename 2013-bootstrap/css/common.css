@@ -1,0 +1,33 @@
+body {
+    padding-top: 50px;
+}
+
+footer {
+    background: #083038;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+.container article {
+    margin-top: 2em;
+}
+.page-title {
+    padding: 20px 10px;
+    overflow: hidden;
+}
+.inverse {
+    background: #083038;
+    color: #fff;
+}
+.content-body {
+    background: #D3F1F3;
+}
+.social {
+    background: url('../images/bg.png') 0px -335px repeat-x;
+    height: 40px;
+}
+.social .inside {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 13px 20px 0;
+}
