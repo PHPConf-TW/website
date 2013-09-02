@@ -172,6 +172,7 @@ nav ul li:last-child {
 .page-title {
     padding: 40px 10px;
     background: #083038;
+    overflow: hidden;
 }
 .page-title div {
     max-width: 980px;
@@ -180,6 +181,8 @@ nav ul li:last-child {
 .page-title div h3 {
     color: #fff;
     letter-spacing: 1px;
+    width: 20%;
+    float: left;
 }
 .page-title div article {
     width: 49.1%;

@@ -1,3 +1,30 @@
+.legend {
+    float: left;
+}
+.legend li {
+    color: #fff;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 150px;
+    background: url(../images/legend.png) no-repeat;
+}
+.legend .level-all {
+    padding-left: 94px;
+    background-position: 0 -120px;
+}
+.legend .level-senior {
+    padding-left: 60px;
+    background-position: 0 -80px;
+}
+.legend .level-junior {
+    padding-left: 60px;
+    background-position: 0 -40px;
+}
+.legend .level-newbie {
+    padding-left: 60px;
+    background-position: 0 0;
+}
 table {
     border-collapse: collapse;
 }
@@ -59,7 +86,9 @@ table .closing h2 {
 table .session section {
     position:relative;
     padding:0 10px;
+    margin-left: 30px;
     min-height:160px;
+    background: #eee;
 }
 table .session .room0 {
     border-left:10px solid #1f79ff;
@@ -82,4 +111,22 @@ table .session .description {
     font-size: 13px;
     letter-spacing: 1px;
     line-height: 1.6;
+}
+.session .level-all,
+.session .level-newbie,
+.session .level-junior,
+.session .level-senior {
+    background: url(../images/level.png) no-repeat;
+}
+.session .level-all {
+    background-position: -90px bottom;
+}
+.session .level-senior {
+    background-position: -60px bottom;
+}
+.session .level-junior {
+    background-position: -30px bottom;
+}
+.session .level-newbie {
+    background-position: 0 bottom;
 }
