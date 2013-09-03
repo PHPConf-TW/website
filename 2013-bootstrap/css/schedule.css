@@ -29,6 +29,7 @@
 }
 table {
     border-collapse: collapse;
+    background: #eee;
 }
 table h2 {
     font-size: 120%;
@@ -131,4 +132,10 @@ table .session .description {
 }
 .session .level-newbie {
     background-position: 0 bottom;
+}
+@media screen and (max-width: 480px) {
+    table td {
+        display: block;
+        width: 100%;
+    }
 }
