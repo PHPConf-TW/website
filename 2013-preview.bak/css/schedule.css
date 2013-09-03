@@ -2,13 +2,11 @@
     float: left;
 }
 .legend li {
-    list-style: none;
     color: #fff;
     float: left;
-    margin-top: 10px;
     height: 40px;
     line-height: 40px;
-    width: 220px;
+    width: 150px;
     background: url(../images/legend.png) no-repeat;
 }
 .legend .level-all {
@@ -29,7 +27,6 @@
 }
 table {
     border-collapse: collapse;
-    background: #eee;
 }
 table h2 {
     font-size: 120%;
@@ -132,10 +129,4 @@ table .session .description {
 }
 .session .level-newbie {
     background-position: 0 bottom;
-}
-@media screen and (max-width: 480px) {
-    table td {
-        display: block;
-        width: 100%;
-    }
 }

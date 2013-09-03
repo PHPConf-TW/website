@@ -1,4 +1,72 @@
-.news-content {
+header {
+    background: url('../images/bg.png') 0px -35px repeat-x;
+    height: 300px;
+}
+.logo {
+    width:364px;
+    height:200px;
+    position:absolute;
+    top:30px;
+}
+.cloud {
+    background: url('../images/cloud.png') no-repeat;
+    width: 72px;
+    height: 32px;
+    position: absolute;
+}
+.cloud.c1 {
+    top: 130px;
+    left: -25px;
+}
+.cloud.c2 {
+    top: 175px;
+    left: 370px;
+}
+.cloud.c3 {
+    top: 20px;
+    right: 30px;
+}
+.bubble {
+    background: url('../images/bubble.png') no-repeat;
+    width: 193px;
+    height: 155px;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    padding: 30px;
+}
+.elephant {
+    background: url('../images/elephant.png') no-repeat;
+    width: 349px;
+    height: 238px;
+    position: absolute;
+    top: 93px;
+    left: 540px;
+}
+.mountain {
+    background: url('../images/mountain.png') center bottom no-repeat;
+    height: 300px;
+    max-width: 980px;
+    margin: 0 auto;
+    position: relative;
+}
+.news-list {
+    list-style: none;
+    margin-top: 0.8em;
+}
+.news-list li a {
+    font-size: 1.2em;
+    color: #FFBF00;
+    line-height: 2em;
+}
+.news {
+    padding: 0 2em;
+    margin: 3em auto;
+}
+.news .title {
+    margin-bottom: 0.5em;
+}
+.news .content {
     letter-spacing: 1px;
     line-height: 1.6;
 }

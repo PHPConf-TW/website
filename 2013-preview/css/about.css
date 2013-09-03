@@ -2,10 +2,11 @@
     width: 280px;
     padding: 10px;
     margin: 10px;
-    border-top: 1px solid #ccc;
+    border: 1px solid #ccc;
     font-size: 14px;
     color: #595959;
     letter-spacing: 1px;
+    background: #eee;
 }
 .avatar {
     text-align: center;
