@@ -1,3 +1,14 @@
+article {
+    padding: 0 2em;
+    margin: 3em auto;
+}
+article .title {
+    margin-bottom: 0.5em;
+}
+article .content {
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
 .staff {
     width: 280px;
     padding: 10px;

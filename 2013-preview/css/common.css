@@ -14,7 +14,7 @@ nav li a {
 hr {
     clear: both;
     border: none;
-    background: url('../images/hr.jpg') top left no-repeat;
+    background: url('../images/hr.jpg') top center no-repeat;
     height: 22px;
 }
 footer {
