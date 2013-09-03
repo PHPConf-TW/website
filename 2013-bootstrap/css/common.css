@@ -31,3 +31,17 @@ footer {
     margin: 0 auto;
     padding: 13px 20px 0;
 }
+hr {
+    clear: both;
+    border: none;
+    background: url('../images/hr.jpg') top left no-repeat;
+    height: 22px;
+}
+.logo-container {
+    position: fixed;
+    z-index: 9999;
+    top: 5px;
+}
+.logo-container img {
+    width: 180px;
+}

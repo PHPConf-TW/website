@@ -50,3 +50,23 @@ header {
     margin: 0 auto;
     position: relative;
 }
+.news-list {
+    list-style: none;
+    margin-top: 0.8em;
+}
+.news-list li a {
+    font-size: 1.2em;
+    color: #FFBF00;
+    line-height: 2em;
+}
+.news {
+    padding: 0 2em;
+    margin: 3em auto;
+}
+.news .title {
+    margin-bottom: 0.5em;
+}
+.news .content {
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
