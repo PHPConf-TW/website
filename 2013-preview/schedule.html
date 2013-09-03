@@ -22,11 +22,12 @@
 
 <body>
 
-<div class="wrapper">
+<div class="wrapper row">
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
+        <div class="col-lg-offset-2">
             <div class="navbar-header hidden-lg hidden-md">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -47,22 +48,21 @@
                 </ul>
             </div>
         </div>
+        </div>
     </nav>
 
     <!-- Logo -->
-    <div class="row">
-        <div class="container">
-            <div class="col-lg-3 col-lg-push-9 logo-container">
-                <a href="index.html">
-                    <img class="logo" src="images/logo.png">
-                </a>
-            </div>
+    <div class="container visible-lg">
+        <div class="col-lg-3 col-lg-push-9 logo-container">
+            <a href="index.html">
+                <img class="logo" src="images/logo.png">
+            </a>
         </div>
     </div>
 
     <!-- Social Bar -->
-    <div class="social row visible-lg visible-md">
-        <div class="inside col-lg-12">
+    <div class="social visible-lg">
+        <div class="container">
             <!-- Place this tag where you want the +1 button to render. -->
             <div class="g-plusone" data-size="medium"></div>
             <!-- Place this tag after the last +1 button tag. -->
@@ -100,21 +100,22 @@
     <div class="row inverse page-title">
         <div class="container">
             <div class="col-lg-2"><h2>Schedule</h2></div>
-            <div class="col-lg-10">
-                <ul class="legend">
-                    <li class="level-newbie">初學者</li>
-                    <li class="level-junior">五年以下開發經驗</li>
-                    <li class="level-senior">五年以上開發經驗</li>
-                    <li class="level-all">所有 PHP 開發者</li>
-                </ul>
-            </div>
         </div>
     </div>
 
     <!-- Content Body -->
-    <div class="row content-body">
-        <div class="container">
+    <div class="content-body">
         <article>
+        <div class="container">
+            <ul class="legend pull-right">
+                <li class="level-newbie">適合初學者</li>
+                <li class="level-junior">適合五年以下經驗開發者</li>
+                <li class="level-senior">適合五年以上經驗開發者</li>
+                <li class="level-all">適合所有 PHP 開發者</li>
+            </ul>
+        </div>
+        <div class="container">
+
         <table class="schedule-table table table-responsive" cellpadding="0" cellspacing="0">
         <thead>
         <tr>
@@ -388,16 +389,16 @@
         </tbody>
         </table>
         <p>若因不可預測之突發因素，主辦單位保留議程及講師的變更權利。</p>
+        </div>
         </article>
-        </div>
     </div>
-    <footer class="row">
-        <div class="col-lg-12">
-            <p>連絡人： Jace Ju (大澤木小鐵)</p>
-            <p>MAIL: <a href="mailto:contact@phpconf.tw">contact@phpconf.tw</a></p>
-        </div>
-    </footer>
 </div>
+
+<!-- Footer -->
+<footer>
+    <p>連絡人： Jace Ju (大澤木小鐵)</p>
+    <p>MAIL: <a href="mailto:contact@phpconf.tw">contact@phpconf.tw</a></p>
+</footer>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script>

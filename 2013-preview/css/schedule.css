@@ -3,12 +3,13 @@
 }
 .legend li {
     list-style: none;
-    color: #fff;
+    color: #333;
     float: left;
     margin-top: 10px;
+    margin-right: 20px;
     height: 40px;
     line-height: 40px;
-    width: 220px;
+    width: auto;
     background: url(../images/legend.png) no-repeat;
 }
 .legend .level-all {

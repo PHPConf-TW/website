@@ -1,7 +1,22 @@
 body {
     padding-top: 50px;
 }
-
+nav {
+    background: #083038 !important;
+}
+nav li {
+    margin: 0 1em;
+}
+nav li a {
+    color: #fff;
+    text-transform: uppercase;
+}
+hr {
+    clear: both;
+    border: none;
+    background: url('../images/hr.jpg') top left no-repeat;
+    height: 22px;
+}
 footer {
     background: #083038;
     color: #fff;
@@ -21,21 +36,14 @@ footer {
 }
 .content-body {
     background: #D3F1F3;
+    overflow: hidden;
 }
 .social {
     background: url('../images/bg.png') 0px -335px repeat-x;
     height: 40px;
 }
-.social .inside {
-    max-width: 980px;
-    margin: 0 auto;
+.social .container {
     padding: 13px 20px 0;
-}
-hr {
-    clear: both;
-    border: none;
-    background: url('../images/hr.jpg') top left no-repeat;
-    height: 22px;
 }
 .logo-container {
     position: fixed;
