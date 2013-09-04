@@ -15,7 +15,7 @@ $sessions = array(
                 'video_url' => '',
             ),
             array(
-                'speaker' => 'Phalcon Kernel',
+                'speaker' => '實戰 Phalcon Kernel',
                 'subject' => 'Racklin',
                 'description' => '效能問題在 PHP 上一直都是很值得探討的議題，而提升執行效能的其中一種方法，就是將關鍵部份以 C 來開發；可是 PHP Extension 的開發對一般開發者來說，門檻相當高；因此 PHPConf 邀請到了技術界人稱阿土伯的 Rack Lin ，他將介紹如何透過 Phalcon Framework 的核心，開發屬於自己的 PHP Extension ！',
                 'start_time' => '10:30',
@@ -96,7 +96,7 @@ $sessions = array(
             ),
             array(
                 'speaker' => 'c9s',
-                'subject' => 'AssetToolkit 簡介與應用',
+                'subject' => '實戰 AssetToolkit',
                 'description' => 'JavaScript 、 CSS 等這類前端檔案的最小化及相依性管理，常是 Web 開發者頭痛的問題之一。雖然可以借助 Framework 來處理，但也相對地要讓程式碼綁死在 Framework 上面。 PHPConf 邀請到台灣 PHP 界的第一把交椅 c9s ，他將為大家介紹他自己設計的工具： AssetToolkit ，來更有效率地管理前端檔案。',
                 'start_time' => '14:30',
                 'end_time' => '15:10',
@@ -115,9 +115,9 @@ $sessions = array(
                 'video_url' => '',
             ),
             array(
-                'speaker' => 'Jace Ju',
-                'subject' => 'Composer 入門',
-                'description' => '',
+                'speaker' => 'Ricky',
+                'subject' => 'PHP 也可以很 event - 用 PHP 打造一個 Realtime Web',
+                'description' => 'PHP 給人的印象往往是無法在大流量下做到即時反應，而且離不開 Apache Web Server 。講者將說明 PHP 只要透過 event extension ，也可以用來處理大量連線問題。並針對 comet 技術與 c10k 問題作逐一的探討。',
                 'start_time' => '15:30',
                 'end_time' => '16:10',
                 'room' => '0',
@@ -125,14 +125,85 @@ $sessions = array(
                 'video_url' => '',
             ),
             array(
-                'speaker' => 'Ricky',
-                'subject' => 'PHP 也可以很 event - 用 PHP 打造一個 Realtime Web',
-                'description' => 'PHP 給人的印象往往是無法在大流量下做到即時反應，而且離不開 Apache Web Server 。講者將說明 PHP 只要透過 event extension ，也可以用來處理大量連線問題。並針對 comet 技術與 c10k 問題作逐一的探討。',
+                'speaker' => 'Jace Ju',
+                'subject' => 'Composer 入門與應用',
+                'description' => 'Composer 是 PHP 新一代的套件管理工具，越來越多的專案已經改用 Composer 來管理。講者將為大家帶來 Composer 的使用方法，並介紹 Composer 在實務應用的心得。',
                 'start_time' => '15:30',
                 'end_time' => '16:10',
                 'room' => '2',
                 'slide_url' => '',
                 'video_url' => '',
+            ),
+        ),
+        'speakers' => array(
+            array(
+                'name' => 'Allen Own',
+                'avatar' => 'http://phpconf.tw/2013/images/speakers/default.png',
+                'company' => 'DevCore',
+            ),
+            array(
+                'name' => 'Orange Tsai',
+                'avatar' => 'http://phpconf.tw/2013/images/speakers/default.png',
+                'company' => '',
+            ),
+            array(
+                'name' => '林慶忠 (Rack Lin 阿土伯)',
+                'avatar' => 'http://phpconf.tw/2013/images/speakers/default.png',
+                'company' => 'VIVIPOS Co., Ltd. / 技術總監',
+            ),
+            array(
+                'name' => 'Rex',
+                'avatar' => 'http://phpconf.tw/2013/images/speakers/default.png',
+                'company' => '',
+            ),
+            array(
+                'name' => 'Tsung',
+                'avatar' => 'http://phpconf.tw/2013/images/speakers/default.png',
+                'company' => 'SiteTag',
+            ),
+            array(
+                'name' => '吳柏毅 (appleboy)',
+                'avatar' => 'http://phpconf.tw/2013/images/speakers/default.png',
+                'company' => '瑞昱半導體股份有限公司 / 工程師',
+            ),
+            array(
+                'name' => 'Jimmy',
+                'avatar' => 'http://phpconf.tw/2013/images/speakers/default.png',
+                'company' => 'NETivism / Co-founder',
+            ),
+            array(
+                'name' => 'Jonathan Maron',
+                'avatar' => 'http://phpconf.tw/2013/images/speakers/default.png',
+                'company' => 'The Imaging Source / Senior Web Developer',
+            ),
+            array(
+                'name' => 'Alansun',
+                'avatar' => 'http://phpconf.tw/2013/images/speakers/default.png',
+                'company' => '穎客資訊 / 前端工程師',
+            ),
+            array(
+                'name' => '林佑安 (c9s)',
+                'avatar' => 'http://phpconf.tw/2013/images/speakers/default.png',
+                'company' => '',
+                
+            ),
+            array(
+                'name' => 'Benjamin Peng (波卡Poka)',
+                'avatar' => 'http://phpconf.tw/2013/images/speakers/default.png',
+                'company' => 'justfont 就是字 / 小小會計',
+                
+            ),
+            array(
+                'name' => 'Ricky',
+                'avatar' => 'http://phpconf.tw/2013/images/speakers/default.png',
+                'company' => 'Niceday.tw / 雜工',
+                
+            ),
+            array(
+                'name' => '大澤木小鐵 (Jace Ju)',
+                'avatar' => 'http://phpconf.tw/2013/images/speakers/default.png',
+                'company' => 'KKBOX / 資深工程師',
+                
             ),
         ),
     ),
@@ -147,7 +218,10 @@ $sessions = array(
                 'start_time' => '',
                 'end_time' => '',
             ),
-        )
+        ),
+        'speakers' => array(
+
+        ),
     ),
     array(
         'year' => '2011',
@@ -160,7 +234,10 @@ $sessions = array(
                 'start_time' => '',
                 'end_time' => '',
             ),
-        )
+        ),
+        'speakers' => array(
+
+        ),
     ),
 );
 
