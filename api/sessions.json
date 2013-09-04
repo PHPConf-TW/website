@@ -1,7 +1,7 @@
 [
     {
         "year": "2013",
-        "last_timestamp": 1378279291,
+        "last_timestamp": 1378300674,
         "sessions": [
             {
                 "speaker": [
@@ -220,34 +220,28 @@
     },
     {
         "year": "2012",
-        "last_timestamp": 1378279291,
+        "last_timestamp": 1378300674,
         "sessions": [
             {
-                "speaker": "",
+                "speaker": null,
                 "subject": "",
                 "description": "",
                 "start_time": "",
                 "end_time": ""
             }
-        ],
-        "speakers": [
-
         ]
     },
     {
         "year": "2011",
-        "last_timestamp": 1378279291,
+        "last_timestamp": 1378300674,
         "sessions": [
             {
-                "speaker": "",
+                "speaker": null,
                 "subject": "",
                 "description": "",
                 "start_time": "",
                 "end_time": ""
             }
-        ],
-        "speakers": [
-
         ]
     }
 ]

@@ -224,15 +224,12 @@ $sessions = array(
         'last_timestamp' => time(),
         'sessions' => array(
             array(
-                'speaker' => '',
+                'speaker' => null,
                 'subject' => '',
                 'description' => '',
                 'start_time' => '',
                 'end_time' => '',
             ),
-        ),
-        'speakers' => array(
-
         ),
     ),
     array(
@@ -240,15 +237,12 @@ $sessions = array(
         'last_timestamp' => time(),
         'sessions' => array(
             array(
-                'speaker' => '',
+                'speaker' => null,
                 'subject' => '',
                 'description' => '',
                 'start_time' => '',
                 'end_time' => '',
             ),
-        ),
-        'speakers' => array(
-
         ),
     ),
 );
