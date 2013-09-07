@@ -1,0 +1,49 @@
+body {
+  background-image: url(../images/bg.png);
+  border-top: 10px solid #333333; }
+
+nav .zh-tw, nav .en {
+  display: block; }
+
+footer {
+  background: #083038;
+  color: white;
+  text-align: center;
+  padding: 1em; }
+
+article {
+  padding: 0 2em;
+  margin: 3em auto; }
+  article .title {
+    margin-bottom: 0.5em; }
+  article .content {
+    letter-spacing: 1px;
+    line-height: 1.6; }
+
+.staff {
+  width: 280px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #cccccc;
+  font-size: 14px;
+  color: #595959;
+  letter-spacing: 1px;
+  background: #eeeeee; }
+
+.avatar {
+  text-align: center;
+  padding: 20px; }
+  .avatar img {
+    width: 200px; }
+
+.profile .name {
+  font-weight: bold;
+  font-size: 1.4em;
+  line-height: 2;
+  text-align: center; }
+.profile .title {
+  font-size: 1.2em;
+  line-height: 2;
+  text-align: center; }
+.profile .description {
+  margin-top: 20px; }

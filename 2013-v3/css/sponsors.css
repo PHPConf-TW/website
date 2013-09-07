@@ -1,0 +1,29 @@
+body {
+  background-image: url(../images/bg.png);
+  border-top: 10px solid #333333; }
+
+nav .zh-tw, nav .en {
+  display: block; }
+
+footer {
+  background: #083038;
+  color: white;
+  text-align: center;
+  padding: 1em; }
+
+.sponsorship-list {
+  overflow: hidden; }
+
+figure {
+  margin: 0;
+  padding: 0; }
+
+.sponsorship {
+  float: left;
+  width: 270px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 14px;
+  color: #595959;
+  letter-spacing: 1px;
+  text-align: center; }

@@ -1,0 +1,12 @@
+body {
+  background-image: url(../images/bg.png);
+  border-top: 10px solid #333333; }
+
+nav .zh-tw, nav .en {
+  display: block; }
+
+footer {
+  background: #083038;
+  color: white;
+  text-align: center;
+  padding: 1em; }
