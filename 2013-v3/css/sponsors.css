@@ -60,6 +60,8 @@ nav .nav .en {
         display: block;
         color: #333333;
         position: relative; }
+      .nav li a:hover {
+        background-color: white; }
       .nav li .zh-tw, .nav li .en {
         font-size: 1.2em;
         position: absolute;
