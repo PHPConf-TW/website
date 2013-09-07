@@ -158,8 +158,14 @@ body {
     text-align: center; }
     .sponsors-list .sponsor figure {
       margin: 0;
-      padding: 0; }
+      padding: 0;
+      width: 220px;
+      background: #fafafa; }
       .sponsors-list .sponsor figure img {
+        position: relative;
         width: 200px;
-        padding: 10px;
-        background: #fafafa; }
+        padding: 10px; }
+  .sponsors-list.diamond figure {
+    width: 320px; }
+    .sponsors-list.diamond figure img {
+      width: 300px !important; }
