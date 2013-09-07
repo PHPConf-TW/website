@@ -136,7 +136,7 @@ footer {
   footer .old p:first-child {
     border-right: 1px solid #cccccc; } }
 body {
-  background-image: url(../images/bg.png);
+  background: #d3f1f3 url(../images/bg.png);
   border-top: 10px solid #333333; }
 
 .sponsorship-list {

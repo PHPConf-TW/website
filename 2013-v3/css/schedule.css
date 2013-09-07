@@ -136,7 +136,7 @@ footer {
   footer .old p:first-child {
     border-right: 1px solid #cccccc; } }
 body {
-  background-image: url(../images/bg.png);
+  background: #d3f1f3 url(../images/bg.png);
   border-top: 10px solid #333333; }
 
 .legend {
@@ -164,72 +164,68 @@ body {
     padding-left: 60px;
     background-position: 0 0; }
 
-table {
-  border-collapse: collapse;
-  background: #eeeeee; }
-  table h2 {
-    font-size: 120%; }
-  table h3 {
-    font-size: 110%; }
-  table th {
+.sessions-list {
+  background: #f3f3f3; }
+  .sessions-list h2 {
+    font-size: 1.2em;
+    color: #083038; }
+  .sessions-list .sign-in h2, .sessions-list .opening h2, .sessions-list .lunch h2, .sessions-list .teatime h2, .sessions-list .lighting-talk h2, .sessions-list .closing h2 {
+    text-align: center; }
+  .sessions-list .sign-in, .sessions-list .opening, .sessions-list .session, .sessions-list .break, .sessions-list .lunch, .sessions-list .teatime, .sessions-list .lighting-talk, .sessions-list closing {
+    overflow: hidden;
+    border-bottom: 1px solid #cccccc; }
+  .sessions-list .header .time, .sessions-list .header .room0, .sessions-list .header .room2 {
+    height: 40px;
     padding: 10px;
     text-align: center;
-    color: white; }
-  table td {
-    vertical-align: top;
-    border-bottom: 1px solid #cccccc;
-    padding: 10px;
-    background: #eeeeee; }
-  table .time {
-    width: 20%;
+    color: white;
+    letter-spacing: 1px; }
+  .sessions-list .header .time {
+    background-color: #5d5d5d; }
+  .sessions-list .header .room0 {
+    background-color: #1f79ff; }
+  .sessions-list .header .room2 {
+    background-color: #7ecef4; }
+  .sessions-list .time {
     padding-top: 20px;
-    font-size: 1.2em;
-    text-align: right; }
-  table .speaker {
-    color: #666666; }
-  table tr.break td {
+    font-size: 1em;
+    text-align: right;
+    color: #c77405;
+    font-weight: bold; }
+  .sessions-list .break {
+    height: 40px;
+    line-height: 40px;
     text-align: center;
     color: white;
     background-color: #999999; }
-  table thead .time {
-    color: white;
-    width: 130px;
-    letter-spacing: 1px;
-    background-color: #5d5d5d; }
-  table thead .room0 {
-    color: white;
-    letter-spacing: 1px;
-    background-color: #1f79ff; }
-  table thead .room2 {
-    color: white;
-    letter-spacing: 1px;
-    background-color: #7ecef4; }
-  table .sign-in h2, table .openning h2, table .lunch h2, table .teatime h2, table .lighting-talk h2, table .closing h2 {
-    text-align: center; }
-  table .session section {
-    position: relative;
-    padding: 0 10px;
-    margin-left: 30px;
-    min-height: 160px;
-    background: #eeeeee; }
-  table .session .room0 {
-    border-left: 10px solid #1f79ff; }
-  table .session .room2 {
-    border-left: 10px solid #7ecef4; }
-  table .session .subject {
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: 1px; }
-  table .session .speaker {
-    font-size: 14px;
-    color: #595959;
-    letter-spacing: 1px; }
-  table .session .description {
-    margin-top: 10px;
-    font-size: 13px;
-    letter-spacing: 1px;
-    line-height: 1.6; }
+  .sessions-list .note {
+    color: #ac2925;
+    line-height: 200%;
+    font-weight: bold; }
 
+.session section {
+  position: relative;
+  padding: 0 10px;
+  margin-left: 30px;
+  min-height: 160px;
+  background: #f3f3f3; }
+.session .room0 {
+  border-left: 10px solid #1f79ff; }
+.session .room2 {
+  border-left: 10px solid #7ecef4; }
+.session .subject {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px; }
+.session .speaker {
+  font-size: 14px;
+  color: #595959;
+  letter-spacing: 1px; }
+.session .description {
+  margin-top: 10px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 1.6; }
 .session .level-all, .session .level-newbie, .session .level-junior, .session .level-senior {
   background: url(../images/level.png) no-repeat; }
 .session .level-all {
@@ -240,8 +236,3 @@ table {
   background-position: -30px bottom; }
 .session .level-newbie {
   background-position: 0 bottom; }
-
-@media screen and (max-width: 480px) {
-  table td {
-    display: block;
-    width: 100%; } }
