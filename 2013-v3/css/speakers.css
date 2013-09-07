@@ -139,10 +139,17 @@ body {
   background: #d3f1f3 url(../images/bg.png);
   border-top: 10px solid #333333; }
 
+.note {
+  color: #ac2925;
+  line-height: 200%;
+  font-weight: bold;
+  border-bottom: 1px solid #cccccc; }
+
 .speaker {
   font-size: 1em;
   color: #595959;
   letter-spacing: 1px;
+  margin-bottom: 20px;
   border-bottom: 1px solid #cccccc; }
 
 .avatar {
@@ -155,10 +162,12 @@ body {
   font-weight: bold;
   font-size: 1.4em;
   line-height: 2;
-  text-align: center; }
+  text-align: center;
+  color: #083038; }
 .profile .company {
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 2;
-  text-align: center; }
+  text-align: center;
+  color: #c77405; }
 .profile .description {
   margin-top: 20px; }
