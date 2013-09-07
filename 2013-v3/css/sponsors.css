@@ -146,14 +146,20 @@ body {
   border-bottom: 1px solid #cccccc; }
 
 .sponsors-list {
-  overflow: hidden; }
+  overflow: hidden;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #cccccc; }
   .sponsors-list h2 {
     color: #083038;
-    border-bottom: 2px solid #083038; }
-  .sponsors-list figure {
-    margin: 0;
-    padding: 0; }
+    margin-bottom: 30px; }
   .sponsors-list .sponsor {
     color: #595959;
     letter-spacing: 1px;
     text-align: center; }
+    .sponsors-list .sponsor figure {
+      margin: 0;
+      padding: 0; }
+      .sponsors-list .sponsor figure img {
+        width: 200px;
+        padding: 10px;
+        background: #fafafa; }
