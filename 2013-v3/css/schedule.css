@@ -3,13 +3,36 @@ body {
   border-top: 10px solid #333333; }
 
 nav .zh-tw, nav .en {
-  display: block; }
+  display: block;
+  text-align: center; }
+nav .zh-tw {
+  font-size: 1.2em;
+  line-height: 200%; }
+nav .en {
+  font-size: 0.6em;
+  text-transform: uppercase; }
+nav a:hover {
+  background-color: #2787c1 !important;
+  color: #eeeeee; }
+
+.logo, .social, .comments {
+  text-align: center;
+  padding: 10px; }
 
 footer {
   background: #083038;
   color: white;
   text-align: center;
-  padding: 1em; }
+  padding: 1em;
+  overflow: hidden; }
+  footer a, footer a:hover {
+    color: white; }
+  footer p {
+    text-align: center; }
+  footer .old {
+    font-size: 1.3em; }
+    footer .old p:first-child {
+      border-right: 1px solid #cccccc; }
 
 .legend {
   float: left; }
