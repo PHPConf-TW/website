@@ -140,20 +140,16 @@ body {
   border-top: 10px solid #333333; }
 
 .speaker {
-  width: 280px;
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid #cccccc;
-  font-size: 14px;
+  font-size: 1em;
   color: #595959;
   letter-spacing: 1px;
-  background: #eeeeee; }
+  border-bottom: 1px solid #cccccc; }
 
 .avatar {
   text-align: center;
-  padding: 20px; }
+  padding: 10px; }
   .avatar img {
-    width: 200px; }
+    width: 150px; }
 
 .profile .name {
   font-weight: bold;
