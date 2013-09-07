@@ -139,19 +139,21 @@ body {
   background: #d3f1f3 url(../images/bg.png);
   border-top: 10px solid #333333; }
 
-.sponsorship-list {
+.note {
+  color: #ac2925;
+  line-height: 200%;
+  font-weight: bold;
+  border-bottom: 1px solid #cccccc; }
+
+.sponsors-list {
   overflow: hidden; }
-
-figure {
-  margin: 0;
-  padding: 0; }
-
-.sponsorship {
-  float: left;
-  width: 270px;
-  padding: 10px;
-  margin: 10px;
-  font-size: 14px;
-  color: #595959;
-  letter-spacing: 1px;
-  text-align: center; }
+  .sponsors-list h2 {
+    color: #083038;
+    border-bottom: 2px solid #083038; }
+  .sponsors-list figure {
+    margin: 0;
+    padding: 0; }
+  .sponsors-list .sponsor {
+    color: #595959;
+    letter-spacing: 1px;
+    text-align: center; }

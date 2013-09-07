@@ -138,3 +138,9 @@ footer {
 body {
   background: #d3f1f3 url(../images/bg.png);
   border-top: 10px solid #333333; }
+
+.note {
+  color: #ac2925;
+  line-height: 200%;
+  font-weight: bold;
+  border-bottom: 1px solid #cccccc; }
