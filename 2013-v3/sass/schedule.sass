@@ -1,7 +1,9 @@
 @import "common"
 
+h2
+  font-size: 1.4em
+
 .legend
-  float: right
   position: relative
 
   li
@@ -65,8 +67,8 @@
 
   .time
     padding-top: 20px
-    font-size: 1em
-    text-align: right
+    font-size: 1.3em
+    text-align: center
     color: #c77405
     font-weight: bold
 
@@ -127,3 +129,28 @@
 
   .level-newbie
     background-position: 0 bottom
+
+@media (min-width: 768px)
+
+  h2
+    font-size: 1.6em
+
+  .legend
+    float: right
+
+@media (min-width: 992px)
+
+  h2
+    font-size: 1.8em
+
+  .sessions-list
+
+    .time
+      padding: 15px 3px
+      font-size: 1em
+      text-align: right
+
+@media (min-width: 1200px)
+
+  h2
+    font-size: 2em
