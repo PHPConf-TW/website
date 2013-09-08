@@ -162,3 +162,23 @@ body {
   line-height: 200%;
   font-weight: bold;
   border-bottom: 1px solid #cccccc; }
+
+.news .title {
+  color: #c77405 !important;
+  margin-bottom: 30px; }
+
+.content {
+  font-size: 1.1em; }
+
+.archive .title, .archive .time {
+  font-size: 1.2em;
+  line-height: 150%;
+  padding: 1em 0;
+  margin: 0;
+  color: #c77405 !important; }
+.archive .time {
+  font-size: 1.2em;
+  color: #999999 !important; }
+
+.content {
+  margin-left: 1em; }
