@@ -143,6 +143,7 @@ body {
   border: none;
   height: 20px;
   margin: 0 160px;
+  margin: 0 60px 0 80px;
   background: url(../images/hr.png) top center; }
   .line:before, .line:after {
     float: left;
