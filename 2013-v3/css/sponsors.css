@@ -165,8 +165,7 @@ body {
 
 .sponsors-list {
   overflow: hidden;
-  padding-bottom: 30px;
-  border-bottom: 1px solid #cccccc; }
+  padding-bottom: 30px; }
   .sponsors-list h2 {
     color: #083038;
     margin-bottom: 30px; }
