@@ -168,17 +168,17 @@ body {
   border-bottom: 1px solid #cccccc; }
 
 .legend {
-  float: right; }
+  float: right;
+  position: relative; }
   .legend li {
     list-style: none;
     color: #333333;
-    float: right;
     margin-top: 10px;
-    margin-right: 20px;
     height: 25px;
     line-height: 25px;
-    width: auto;
     background: url(../images/legend.png) no-repeat; }
+  .legend:first-child {
+    margin-top: 0; }
   .legend .level-all {
     padding-left: 60px;
     background-position: 0 -76px; }
