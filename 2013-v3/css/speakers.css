@@ -139,6 +139,10 @@ body {
   background: #d3f1f3 url(../images/bg.png);
   border-top: 10px solid #333333; }
 
+.page-content {
+  overflow: hidden;
+  margin-bottom: 3em; }
+
 .line {
   border: none;
   height: 20px;
