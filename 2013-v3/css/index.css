@@ -172,7 +172,8 @@ body {
   margin-bottom: 30px; }
 
 .content {
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  margin-left: 1em; }
 
 .archive .title, .archive .time {
   font-size: 1.2em;
@@ -183,6 +184,3 @@ body {
 .archive .time {
   font-size: 1.2em;
   color: #999999 !important; }
-
-.content {
-  margin-left: 1em; }
