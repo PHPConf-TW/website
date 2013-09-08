@@ -170,11 +170,11 @@ body {
 
 .news .title {
   color: #c77405 !important;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-size: 1.4em; }
 
 .content {
-  font-size: 1.1em;
-  margin-left: 1em; }
+  font-size: 1.1em; }
 
 .archive .title, .archive .time {
   font-size: 1.2em;
@@ -183,5 +183,20 @@ body {
   margin: 0;
   color: #c77405 !important; }
 .archive .time {
-  font-size: 1.2em;
+  font-size: 0.8em;
   color: #999999 !important; }
+
+@media (min-width: 768px) {
+  .news .title {
+    font-size: 1.6em; }
+  .news .content {
+    margin-left: 1em; }
+
+  .archive .time {
+    font-size: 1.2em; } }
+@media (min-width: 992px) {
+  .news .title {
+    font-size: 1.8em; } }
+@media (min-width: 1200px) {
+  .news .title {
+    font-size: 2em; } }
