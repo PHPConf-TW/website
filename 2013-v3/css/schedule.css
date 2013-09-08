@@ -168,29 +168,29 @@ body {
   border-bottom: 1px solid #cccccc; }
 
 .legend {
-  float: left; }
+  float: right; }
   .legend li {
     list-style: none;
     color: #333333;
-    float: left;
+    float: right;
     margin-top: 10px;
     margin-right: 20px;
-    height: 40px;
-    line-height: 40px;
+    height: 25px;
+    line-height: 25px;
     width: auto;
     background: url(../images/legend.png) no-repeat; }
   .legend .level-all {
-    padding-left: 94px;
-    background-position: 0 -120px; }
+    padding-left: 60px;
+    background-position: 0 -76px; }
   .legend .level-senior {
-    padding-left: 60px;
-    background-position: 0 -80px; }
+    padding-left: 40px;
+    background-position: 0 -51px; }
   .legend .level-junior {
-    padding-left: 60px;
-    background-position: 0 -40px; }
+    padding-left: 40px;
+    background-position: 0 -26px; }
   .legend .level-newbie {
-    padding-left: 60px;
-    background-position: 0 0; }
+    padding-left: 40px;
+    background-position: 0 -1px; }
 
 .sessions-list {
   background: #f3f3f3; }
