@@ -14,7 +14,8 @@
 nav .navbar-toggle {
   background: #083038; }
 nav .navbar-brand {
-  font-size: 1.8em; }
+  color: #083038 !important;
+  font-size: 1.4em; }
 nav .nav li {
   display: block;
   text-align: center; }
