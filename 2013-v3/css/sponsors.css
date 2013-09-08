@@ -139,6 +139,23 @@ body {
   background: #d3f1f3 url(../images/bg.png);
   border-top: 10px solid #333333; }
 
+.line {
+  border: none;
+  height: 20px;
+  margin: 0 160px;
+  background: url(../images/hr.png) top center; }
+  .line:before, .line:after {
+    float: left;
+    width: 80px;
+    height: 20px;
+    content: " ";
+    margin-left: -80px;
+    background: url(../images/hr.png) bottom left no-repeat; }
+  .line:after {
+    float: right;
+    margin-right: -60px;
+    background-position: bottom right; }
+
 .note {
   color: #ac2925;
   line-height: 200%;
