@@ -162,3 +162,17 @@ body {
   line-height: 200%;
   font-weight: bold;
   border-bottom: 1px solid #cccccc; }
+
+h2 {
+  color: #083038 !important;
+  margin-bottom: 30px; }
+
+section {
+  margin-bottom: 30px; }
+  section h3 {
+    color: #c77405; }
+  section p {
+    font-size: 1.2em;
+    padding-left: 1em; }
+  section label {
+    display: block; }
