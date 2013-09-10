@@ -1,19 +1,21 @@
 [
     {
         "year": "2013",
-        "last_timestamp": 1378300674,
+        "last_timestamp": 1378778951,
         "sessions": [
             {
                 "speaker": [
                     {
                         "name": "Allen Own",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": "DevCore"
+                        "company": "DevCore",
+                        "description": ""
                     },
                     {
                         "name": "Orange Tsai",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": ""
+                        "company": "",
+                        "description": ""
                     }
                 ],
                 "subject": "PHP 網站攻防實務",
@@ -29,7 +31,8 @@
                     {
                         "name": "林慶忠 (Rack Lin 阿土伯)",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": "VIVIPOS Co., Ltd. \/ 技術總監"
+                        "company": "VIVIPOS Co., Ltd. \/ 技術總監",
+                        "description": "熱情於自由軟體開發與研究的科技老宅，長期關注於 PHP \/ JavaScript \/ Java 相關的技術，目前移情於 Scala 之中。\n曾致力改善陽春的 blogger.com 功能，2007 年 Google Gadget Awards 得獎人。"
                     }
                 ],
                 "subject": "實戰 Phalcon Kernel",
@@ -45,7 +48,8 @@
                     {
                         "name": "Rex",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": ""
+                        "company": "",
+                        "description": ""
                     }
                 ],
                 "subject": "Evernote SDK for PHP - 你所不知的 Evernote",
@@ -61,7 +65,8 @@
                     {
                         "name": "Tsung",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": "SiteTag"
+                        "company": "SiteTag",
+                        "description": "對新奇的事物都很有興趣，喜歡簡單的東西，過簡單的生活。"
                     }
                 ],
                 "subject": "SiteTag 系統窮人調校法經驗談",
@@ -77,7 +82,8 @@
                     {
                         "name": "kiang",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": "就這間電腦工作室"
+                        "company": "就這間電腦工作室",
+                        "description": ""
                     }
                 ],
                 "subject": "MagentoCommerce Extension 開發",
@@ -93,7 +99,8 @@
                     {
                         "name": "吳柏毅 (appleboy)",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": "瑞昱半導體股份有限公司 \/ 工程師"
+                        "company": "瑞昱半導體股份有限公司 \/ 工程師",
+                        "description": "目前擔任 Sencha Touch 手機網頁及嵌入式系統 Android Linux Kernel 開發整合軟體工程師。\n在 2009 年第一次接觸 CodeIgniter PHP Framework 時，就覺得怎麼會這麼容易上手，完全是懶人框架，就此開始擔任台灣繁體中文化網站站長一職，也著手開始翻譯線上教學文件。"
                     }
                 ],
                 "subject": "用 Gearman 及 CodeIgniter 打造 PHP 排程系統",
@@ -109,7 +116,8 @@
                     {
                         "name": "Jimmy",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": "NETivism \/ Co-founder"
+                        "company": "NETivism \/ Co-founder",
+                        "description": "對網路公民媒體 + Open Soruce 特別有興趣"
                     }
                 ],
                 "subject": "進擊的快取 - 以 Drupal 的快取核心為例",
@@ -125,7 +133,8 @@
                     {
                         "name": "Jonathan Maron",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": "The Imaging Source \/ Senior Web Developer"
+                        "company": "The Imaging Source \/ Senior Web Developer",
+                        "description": "I have been working in the web application conceptualization and development space since 1996. My current position is with an international company, specialized in the production of industrial machine vision products, application software and software components for developers.\nI lead an international development team of programmers, graphical artists, authors and search engine optimizers. Together, we build highly usable, multi-lingual, fully localized web applications that rank well in all search engines for all applicable languages and countries.\nBeing an advocate of the FOSS movement, I promote the use of Open Source software, motivating and assisting team members to deploy Linux on the desktop and server. I reject the notion of reinventing the wheel and consequently prefer to develop with established frameworks, components and tool kits where applicable.\nI am an active member of the Zend Framework, having authored ZendService_LiveDocx, a really exciting project, which offers PHP developers a dead easy and very quick way of creating beautiful word processing documents, such as PDF, DOCX, DOC or RTF files with PHP.\nI am also one of the organizers of PHP Unconference Europe (UK) and PHP Unconference Hamburg (Germany)."
                     }
                 ],
                 "subject": "5 Easy Ways To Speed Up Your Web Application",
@@ -141,7 +150,8 @@
                     {
                         "name": "Alansun",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": "穎客資訊 \/ 前端工程師"
+                        "company": "穎客資訊 \/ 前端工程師",
+                        "description": "專長： SlimPHP 、 Web 前端技術。\n開發 Web 前端技術為主，自兩年前接觸 Slim 後，就一路使用到現在，目前任職於穎客資訊前端工程師。"
                     }
                 ],
                 "subject": "Slim 從零開始",
@@ -157,7 +167,8 @@
                     {
                         "name": "林佑安 (c9s)",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": ""
+                        "company": "",
+                        "description": "喜愛編程、開源專案，參與多項開源專案開發，從 Perl, C\/C++, JavaScript, CoffeeScript, Haskell, PHP, Python, Java, Obj-C 等皆有涉獵。主要從事 PHP 及 Perl 相關開發工作，最近幾年於 Github 發表許多 PHP 相關項目，試圖改善 PHP 開發環境。"
                     }
                 ],
                 "subject": "實戰 AssetToolkit",
@@ -173,7 +184,8 @@
                     {
                         "name": "Benjamin Peng (波卡Poka)",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": "justfont 就是字 \/ 小小會計"
+                        "company": "justfont 就是字 \/ 小小會計",
+                        "description": ""
                     }
                 ],
                 "subject": "從 CodeIgniter 跳槽到 Laravel",
@@ -189,7 +201,8 @@
                     {
                         "name": "Ricky",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": "Niceday.tw \/ 雜工"
+                        "company": "Niceday.tw \/ 雜工",
+                        "description": "喜歡拿 PHP 來作不正經的事，反正一切都沒問題。"
                     }
                 ],
                 "subject": "PHP 也可以很 event - 用 PHP 打造一個 Realtime Web",
@@ -205,7 +218,8 @@
                     {
                         "name": "大澤木小鐵 (Jace Ju)",
                         "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": "KKBOX \/ 資深工程師"
+                        "company": "KKBOX \/ 資深工程師",
+                        "description": "一個喜歡 PHP 及其他網站開發技術的程式工作者，並沈迷在這個世界裡，進而去探索這些技術有趣的地方。\n分享技術的理念是：取之於網路，回饋於網路；並且讓大家能感受到自己學習到新東西的快樂。"
                     }
                 ],
                 "subject": "Composer 入門與應用",
@@ -220,7 +234,7 @@
     },
     {
         "year": "2012",
-        "last_timestamp": 1378300674,
+        "last_timestamp": 1378778951,
         "sessions": [
             {
                 "speaker": null,
@@ -233,7 +247,7 @@
     },
     {
         "year": "2011",
-        "last_timestamp": 1378300674,
+        "last_timestamp": 1378778951,
         "sessions": [
             {
                 "speaker": null,
