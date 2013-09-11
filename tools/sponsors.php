@@ -14,7 +14,7 @@ $sponsors = array(
             ),
             array(
                 'level' => 2,
-                'name' => '補夢網',
+                'name' => '捕夢網',
                 'url' => 'http://www.pumo.com.tw/',
                 'web_logo' => 'http://phpconf.tw/2013/images/sponsors/pumo.png',
                 'mobile_logo' => 'http://phpconf.tw/2013/images/sponsors/pumo-mobile.png',
