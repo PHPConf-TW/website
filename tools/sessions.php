@@ -261,4 +261,4 @@ $sessions = array(
     ),
 );
 
-echo json_encode($sessions, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+file_put_contents(__DIR__ . '/../api/sessions,json', json_encode($sponsors, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
