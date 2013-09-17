@@ -191,5 +191,14 @@ body {
   line-height: 2;
   text-align: center;
   color: #c77405; }
+  .profile .company a {
+    color: #c77405; }
 .profile .description {
   margin-top: 20px; }
+.profile .social-links {
+  list-style: none;
+  padding: 0; }
+  .profile .social-links li {
+    display: inline; }
+    .profile .social-links li:after {
+      content: " "; }
