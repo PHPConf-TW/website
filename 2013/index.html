@@ -165,9 +165,9 @@
                 <div class="content hidden">
                     <p>相信大家今年最關心的，莫過於如何報名 PHPConf 以及有哪些議程吧？！</p>
                     <p>終於，我們將於 8/19 晚上八點開放大家報名！ 千萬不要再錯過啦！</p>
-                    <p>報名網址： <a href="http://www.accupass.com/go/phpconf2013">PHPConf 2013 - 活動通 Accupass</a> 。 (註一)</p>
+                    <p>報名網址： <a href="http://www.accupass.com/go/phpconf2013">PHPConf 2013 - 活動通 Accupass</a> 。</p>
                     <p>而今年的議程也相當精采！涵蓋了各種 PHP 應用與實務！</p>
-                    <p>每一個議程都是書上看不到的經驗分享，所以別再猶豫了！ (註二)</p>
+                    <p>每一個議程都是書上看不到的經驗分享，所以別再猶豫了！</p>
                     <p>請記得隨時關注我們的最新消息！</p>
                 </div>
             </div>
@@ -464,6 +464,9 @@
 <script>
 (function () {
     $archive = $('.archive');
+    $archive.find('.title').on('click', function () {
+        $(this).parents('.archive').find('.content').toggleClass('hidden');
+    });
 })();
 </script>
 </body>

@@ -177,7 +177,8 @@ body {
   font-size: 1.1em; }
 
 .archive .title, .archive .time {
-  font-size: 1.2em;
+  cursor: pointer;
+  font-size: 1.5em;
   line-height: 150%;
   padding: 1em 0;
   margin: 0;
@@ -185,6 +186,11 @@ body {
 .archive .time {
   font-size: 0.8em;
   color: #999999 !important; }
+.archive .content {
+  clear: both;
+  padding-left: 2em; }
+  .archive .content h2 {
+    font-size: 1.1em; }
 
 @media (min-width: 768px) {
   .news .title {
