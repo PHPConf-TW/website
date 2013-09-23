@@ -206,16 +206,20 @@ body {
     margin-right: 0px; }
   .staff .profile {
     font-size: 1.2em;
+    line-height: 0.6em;
     position: absolute;
     height: 80px;
     width: 80px;
     top: 50%;
     left: 50%;
-    margin-top: -10px;
+    margin-top: -20px;
     margin-left: -40px;
     opacity: 0.8;
     text-align: center;
     color: white; }
+    .staff .profile .group {
+      border-bottom: 1px solid #003366;
+      padding-bottom: 10px; }
 
 .staff:hover {
   border-color: #eeeeee;
