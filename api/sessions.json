@@ -1,24 +1,24 @@
 [
     {
         "year": "2013",
-        "last_timestamp": 1378778951,
+        "last_timestamp": 1380374993,
         "sessions": [
             {
                 "speaker": [
                     {
                         "name": "Allen Own",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/allen.jpg",
                         "company": "DevCore",
-                        "description": ""
+                        "description": "\/dev\/null"
                     },
                     {
                         "name": "Orange Tsai",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/orange.jpg",
                         "company": "",
-                        "description": ""
+                        "description": "蔡政達 a.k.a Orange :)\n現任大學生中，主要專注於 Web Security ，網路滲透以及 Windows 上的弱點研究。"
                     }
                 ],
-                "subject": "PHP 網站攻防實務",
+                "subject": "矛盾大對決 - 能入侵任何網站的駭客 vs. 絕對不會被入侵的網站",
                 "description": "在網路資訊安全越顯重要的今天，您如何保護您的網站資料不被竊取呢？瞭解駭客的心理與技術，瞭解網站程式有何漏洞，都是現在 Web 開發必須熟知的課題。這次， PHPConf 邀請到了 Allen Own 與 Orange Tsai 兩位台灣資安界的高手，他們將透過精心設計的攻防實戰，告訴大家資安的重要性！",
                 "start_time": "09:30",
                 "end_time": "10:20",
@@ -30,9 +30,9 @@
                 "speaker": [
                     {
                         "name": "林慶忠 (Rack Lin 阿土伯)",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/racklin.png",
                         "company": "VIVIPOS Co., Ltd. \/ 技術總監",
-                        "description": "熱情於自由軟體開發與研究的科技老宅，長期關注於 PHP \/ JavaScript \/ Java 相關的技術，目前移情於 Scala 之中。\n曾致力改善陽春的 blogger.com 功能，2007 年 Google Gadget Awards 得獎人。"
+                        "description": "熱情於自由軟體開發與研究的科技老宅，長期關注於 PHP \/ JavaScript \/ Java 相關的技術，目前移情於 Scala 及 LiveScript 之中。"
                     }
                 ],
                 "subject": "實戰 Phalcon Kernel",
@@ -47,9 +47,9 @@
                 "speaker": [
                     {
                         "name": "Rex",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": "",
-                        "description": ""
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/rex.jpg",
+                        "company": "ResumeCompanion \/ Principle Front-end Engineer\nTaiwan Evernote Developer Meetup 發起人",
+                        "description": "一個 Evenote 的重度使用者，已經把工作生活大小事都儲存在裡面，沒有他就像是得了失憶症。\n自從去年 7 月參加完 Evernote Hackathon 之後，在下班時間開始開發一些自己想要的 Evernote 的應用。\n於今年 9 月開始舉辦 Taiwan Evernote Developer Meetup，希望能讓更多台灣的開發人員更容易開發自己想用的工具。"
                     }
                 ],
                 "subject": "Evernote SDK for PHP - 你所不知的 Evernote",
@@ -64,9 +64,9 @@
                 "speaker": [
                     {
                         "name": "Tsung",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/tsung.jpg",
                         "company": "SiteTag",
-                        "description": "對新奇的事物都很有興趣，喜歡簡單的東西，過簡單的生活。"
+                        "description": "對新奇的事物都很有興趣，喜歡簡單的東西，過簡單的生活。\n目前正在努力學習當爸爸中~"
                     }
                 ],
                 "subject": "SiteTag 系統窮人調校法經驗談",
@@ -81,9 +81,9 @@
                 "speaker": [
                     {
                         "name": "kiang",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/kiang.jpg",
                         "company": "就這間電腦工作室",
-                        "description": ""
+                        "description": "Founded twpug.net since 2004 and olc.tw since 2009. A freelancer works with PHP for years and currently put some time on studying Magento."
                     }
                 ],
                 "subject": "MagentoCommerce Extension 開發",
@@ -98,9 +98,9 @@
                 "speaker": [
                     {
                         "name": "吳柏毅 (appleboy)",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/appleboy.jpg",
                         "company": "瑞昱半導體股份有限公司 \/ 工程師",
-                        "description": "目前擔任 Sencha Touch 手機網頁及嵌入式系統 Android Linux Kernel 開發整合軟體工程師。\n在 2009 年第一次接觸 CodeIgniter PHP Framework 時，就覺得怎麼會這麼容易上手，完全是懶人框架，就此開始擔任台灣繁體中文化網站站長一職，也著手開始翻譯線上教學文件。"
+                        "description": "現任瑞昱半導體系統工程師，設計前端、後端及嵌入式系統系統架構，喜歡學習嘗試任何新技術，目前專注於 CodeIgniter、Larvel PHP Framewrok 發展。"
                     }
                 ],
                 "subject": "用 Gearman 及 CodeIgniter 打造 PHP 排程系統",
@@ -115,9 +115,9 @@
                 "speaker": [
                     {
                         "name": "Jimmy",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
-                        "company": "NETivism \/ Co-founder",
-                        "description": "對網路公民媒體 + Open Soruce 特別有興趣"
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/jimmy.jpg",
+                        "company": "NETivism",
+                        "description": "Web 開發者、 Drupal 開發者、社群推廣者， from 2005 。\nNPO 、公民媒體關注者， from 2006\nNPOxICT 服務提供者、問題解決者， from 2009 。\nCiviCRM 中文化開發者，from 2010 。"
                     }
                 ],
                 "subject": "進擊的快取 - 以 Drupal 的快取核心為例",
@@ -132,13 +132,13 @@
                 "speaker": [
                     {
                         "name": "Jonathan Maron",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/jonathon.jpg",
                         "company": "The Imaging Source \/ Senior Web Developer",
-                        "description": "I have been working in the web application conceptualization and development space since 1996. My current position is with an international company, specialized in the production of industrial machine vision products, application software and software components for developers.\nI lead an international development team of programmers, graphical artists, authors and search engine optimizers. Together, we build highly usable, multi-lingual, fully localized web applications that rank well in all search engines for all applicable languages and countries.\nBeing an advocate of the FOSS movement, I promote the use of Open Source software, motivating and assisting team members to deploy Linux on the desktop and server. I reject the notion of reinventing the wheel and consequently prefer to develop with established frameworks, components and tool kits where applicable.\nI am an active member of the Zend Framework, having authored ZendService_LiveDocx, a really exciting project, which offers PHP developers a dead easy and very quick way of creating beautiful word processing documents, such as PDF, DOCX, DOC or RTF files with PHP.\nI am also one of the organizers of PHP Unconference Europe (UK) and PHP Unconference Hamburg (Germany)."
+                        "description": "Jonathan Maron has worked in the web application conceptualization and development space since 1996. He leads a transcontinental development team of programmers, graphical artists, authors and search engine optimizers. His team builds highly usable, multi-lingual, fully localized web applications, which rank well in all search engines for all applicable languages and territories."
                     }
                 ],
                 "subject": "5 Easy Ways To Speed Up Your Web Application",
-                "description": "There are hundreds of ways by which a developer can increase the technical and perceived speed of a web application. Some are complicated to implement and improve performance by only a minimal amount, whereas others are easy to implement and increase performance by a large factor. These so called \"\"Low-Hanging Fruits\"\" are the subject of this talk. The presentation discusses five easily implemented, practical measures to increase performance with minimum changes to existing code.",
+                "description": "There are hundreds of ways by which a developer can increase the technical and perceived speed of a web application. Some are complicated to implement and improve performance by only a minimal amount, whereas others are easy to implement and increase performance by a large factor. These so called \"Low-Hanging Fruits\" are the subject of this talk. The presentation discusses five easily implemented, practical measures to increase performance with minimum changes to existing code.",
                 "start_time": "13:45",
                 "end_time": "14:25",
                 "room": "0",
@@ -149,9 +149,9 @@
                 "speaker": [
                     {
                         "name": "Alansun",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/alansun.jpg",
                         "company": "穎客資訊 \/ 前端工程師",
-                        "description": "專長： SlimPHP 、 Web 前端技術。\n開發 Web 前端技術為主，自兩年前接觸 Slim 後，就一路使用到現在，目前任職於穎客資訊前端工程師。"
+                        "description": "主要致力於前端開發，接觸 PHP 近五年的時間，是個半路出家的網站開發者，最不會就是寫自我介紹。"
                     }
                 ],
                 "subject": "Slim 從零開始",
@@ -166,9 +166,9 @@
                 "speaker": [
                     {
                         "name": "林佑安 (c9s)",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/c9s.jpg",
                         "company": "",
-                        "description": "喜愛編程、開源專案，參與多項開源專案開發，從 Perl, C\/C++, JavaScript, CoffeeScript, Haskell, PHP, Python, Java, Obj-C 等皆有涉獵。主要從事 PHP 及 Perl 相關開發工作，最近幾年於 Github 發表許多 PHP 相關項目，試圖改善 PHP 開發環境。"
+                        "description": "With high activity on Github, Lin has 200+ open source projects on GitHub, programming language includes PHP, Go, Perl, JavaScript and VimL. he is the top 3 active user on GitHub by contributions."
                     }
                 ],
                 "subject": "實戰 AssetToolkit",
@@ -183,9 +183,9 @@
                 "speaker": [
                     {
                         "name": "Benjamin Peng (波卡Poka)",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/benjamin.jpg",
                         "company": "justfont 就是字 \/ 小小會計",
-                        "description": ""
+                        "description": "專長： Web Development\n簡介：會點 Laravel 皮毛的 PHP 工程師，努力把人抓去和 Laravel 簽約中 ╱\/(◕‿‿◕)\\╲"
                     }
                 ],
                 "subject": "從 CodeIgniter 跳槽到 Laravel",
@@ -200,9 +200,9 @@
                 "speaker": [
                     {
                         "name": "Ricky",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/ricky.jpg",
                         "company": "Niceday.tw \/ 雜工",
-                        "description": "喜歡拿 PHP 來作不正經的事，反正一切都沒問題。"
+                        "description": "Symfony Framework 的愛好者，目前擔任 Symfony 讀書會的固定雜工。\n喜歡拿 PHP 做不正經的事，希望讓 PHP 展現更多元的應用。"
                     }
                 ],
                 "subject": "PHP 也可以很 event - 用 PHP 打造一個 Realtime Web",
@@ -217,7 +217,7 @@
                 "speaker": [
                     {
                         "name": "大澤木小鐵 (Jace Ju)",
-                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/default.png",
+                        "avatar": "http:\/\/phpconf.tw\/2013\/images\/speakers\/jaceju.jpg",
                         "company": "KKBOX \/ 資深工程師",
                         "description": "一個喜歡 PHP 及其他網站開發技術的程式工作者，並沈迷在這個世界裡，進而去探索這些技術有趣的地方。\n分享技術的理念是：取之於網路，回饋於網路；並且讓大家能感受到自己學習到新東西的快樂。"
                     }
@@ -234,7 +234,7 @@
     },
     {
         "year": "2012",
-        "last_timestamp": 1378778951,
+        "last_timestamp": 1380374993,
         "sessions": [
             {
                 "speaker": null,
@@ -247,7 +247,7 @@
     },
     {
         "year": "2011",
-        "last_timestamp": 1378778951,
+        "last_timestamp": 1380374993,
         "sessions": [
             {
                 "speaker": null,
