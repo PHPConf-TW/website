@@ -200,7 +200,7 @@ h2 {
   .sessions-list h2 {
     font-size: 1.2em;
     color: #083038; }
-  .sessions-list .sign-in h2, .sessions-list .opening h2, .sessions-list .lunch h2, .sessions-list .teatime h2, .sessions-list .lighting-talk h2, .sessions-list .closing h2 {
+  .sessions-list .sign-in h2, .sessions-list .opening h2, .sessions-list .lunch h2, .sessions-list .teatime h2, .sessions-list .closing h2 {
     text-align: center; }
   .sessions-list .sign-in, .sessions-list .opening, .sessions-list .session, .sessions-list .break, .sessions-list .lunch, .sessions-list .teatime, .sessions-list .lighting-talk, .sessions-list closing {
     overflow: hidden;
@@ -234,38 +234,38 @@ h2 {
     line-height: 200%;
     font-weight: bold; }
 
-.session section {
+.session section, .lighting-talk section {
   position: relative;
   padding: 0 10px;
   margin-left: 30px;
   min-height: 160px;
   background: #f3f3f3; }
-.session .room0 {
+.session .room0, .lighting-talk .room0 {
   border-left: 10px solid #1f79ff; }
-.session .room2 {
+.session .room2, .lighting-talk .room2 {
   border-left: 10px solid #7ecef4; }
-.session .subject {
+.session .subject, .lighting-talk .subject {
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px; }
-.session .speaker {
+.session .speaker, .lighting-talk .speaker {
   font-size: 14px;
   color: #595959;
   letter-spacing: 1px; }
-.session .description {
+.session .description, .lighting-talk .description {
   margin-top: 10px;
   font-size: 13px;
   letter-spacing: 1px;
   line-height: 1.6; }
-.session .level-all, .session .level-newbie, .session .level-junior, .session .level-senior {
+.session .level-all, .session .level-newbie, .session .level-junior, .session .level-senior, .lighting-talk .level-all, .lighting-talk .level-newbie, .lighting-talk .level-junior, .lighting-talk .level-senior {
   background: url(../images/level.png) no-repeat; }
-.session .level-all {
+.session .level-all, .lighting-talk .level-all {
   background-position: -90px bottom; }
-.session .level-senior {
+.session .level-senior, .lighting-talk .level-senior {
   background-position: -60px bottom; }
-.session .level-junior {
+.session .level-junior, .lighting-talk .level-junior {
   background-position: -30px bottom; }
-.session .level-newbie {
+.session .level-newbie, .lighting-talk .level-newbie {
   background-position: 0 bottom; }
 
 @media (min-width: 768px) {
