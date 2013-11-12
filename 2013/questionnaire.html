@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="utf-8">
+    <title>PHPConf Taiwan 2013 :: 會後問卷</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
+    <meta property="og:title" content="PHPConf Taiwan 2013 :: Schedule"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="PHPConf Taiwan 2013 是台灣年度 PHP 聚會，於 10/5 在中研院人文館舉行。"/>
+    <meta property="og:url" content="http://phpconf.tw/2013/"/>
+    <meta property="og:image" content="http://phpconf.tw/2013/images/fb.png"/>
+    <meta property="og:site_name" content="PHPConf Taiwan 2013"/>
+    <meta property="fb:app_id" content="405706069513334"/>
+    <link href="css/schedule.css" media="screen, projection" rel="stylesheet"/>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+
+    <link href='https://docs.google.com/static/forms/client/css/2635585827-formview_ltr.css' type='text/css' rel='stylesheet'>
+    <style type="text/css">
+    body {
+        background: #D3F1F3 url(images/bg.png);
+        color: #3f1900;
+        margin: 0;
+        padding: 0;
+    }
+    input, select, textarea {
+        font-family: Tahoma, Arial, serif;
+        font-size: 13px;
+    }
+    div.ss-form-container {
+        border: 1px solid #999;
+        border-width: 0 1px;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 0 20px 20px;
+        width: 80%;
+    }
+    h1.ss-form-title, .ss-header-image {
+        background: #2787C1;
+    }
+    h1.ss-form-title {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: #fff;
+        font-size: 32px;
+        line-height: 36px;
+        margin: 0 0 20px;
+        min-height: 80px;
+        padding: 20px 360px 20px 20px;
+    }
+    .ss-header-image {
+        height: 90px;
+    }
+    h1, h2 {
+        font-family:'Old Standard TT';
+    }
+    div.errorbox-bad {
+        background: none;
+        border: none;
+        padding: 0;
+    }
+    div.errorbox-bad div.ss-form-entry {
+        background: #fff0da;
+        border: 1px solid #ff5d22;
+        padding: 5px;
+    }
+    div.ss-form-entry {
+        margin: 0 0 20px;
+    }
+    div.ss-section-header, div.ss-page-break {
+        margin: 20px 0;
+        padding: 0;
+    }
+    h2.ss-section-title, h2.ss-page-title {
+        background: none;
+        border-bottom: 1px solid #f0c090;
+        font-size: 26px;
+        line-height: 30px;
+        margin: 0 0 5px;
+        padding: 0 0 5px;
+    }
+    div.ss-section-description, div.ss-page-description {
+        margin: 0;
+        padding: 0;
+    }
+    td.ss-scalenumbers, td.ss-scalerow, td.ss-gridnumbers, td.ss-gridrow, tr.ss-grid-row-odd, tr.ss-grid-row-even {
+        border-color: #ffe0ba;
+    }
+    tr.ss-grid-row-odd {
+        background: #fffae8;
+    }
+    tr.ss-grid-row-even {
+        background: #fff;
+    }
+    label.ss-q-help {
+        color: #b08060;
+    }
+    td.ss-scalenumbers, td.ss-scalerow, td.ss-leftlabel, td.ss-rightlabel, label.ss-gridnumber, span.ss-powered-by, .ss-powered-by a:link, .ss-powered-by a:visited, span.ss-terms {
+        color: #b08060;
+    }
+    .logo {
+      float: right;
+    }
+    </style>
+    <script type="text/javascript">
+    /**
+     * @license
+     *! H5F
+     * https://github.com/ryanseddon/H5F/
+     * Copyright (c) Ryan Seddon | Licensed MIT
+     */
+
+    (function(e, t) {
+        "function" == typeof define && define.amd ? define(t) : e.H5F = t()
+    })(this, function() {
+        var e, t, a, i, n, r, s, l, u, o, c, d, v, f, p, m, h, g, b, y, w, C, N, A, E, $, k = document,
+            x = k.createElement("input"),
+            q = /^[a-zA-Z0-9.!#$%&'*+-\/=?\^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
+            M = /[a-z][\-\.+a-z]*:\/\//i,
+            L = /^(input|select|textarea)$/i;
+        return r = function(e, t) {
+            var a = !e.nodeType || !1,
+                i = {
+                    validClass: "valid",
+                    invalidClass: "error",
+                    requiredClass: "required",
+                    placeholderClass: "placeholder"
+                };
+            if ("object" == typeof t)
+                for (var r in i) t[r] === void 0 && (t[r] = i[r]);
+            if (n = t || i, a)
+                for (var l = 0, u = e.length; u > l; l++) s(e[l]);
+            else s(e)
+        }, s = function(a) {
+            var i, n = a.elements,
+                r = n.length,
+                s = !! a.attributes.novalidate;
+            if (b(a, "invalid", u, !0), b(a, "blur", u, !0), b(a, "input", u, !0), b(a, "keyup", u, !0), b(a, "focus", u, !0), b(a, "change", u, !0), b(a, "click", o, !0), b(a, "submit", function(i) {
+                e = !0, t || s || a.checkValidity() || w(i)
+            }, !1), !v())
+                for (a.checkValidity = function() {
+                    return c(a)
+                }; r--;) i = !! n[r].attributes.required, "fieldset" !== n[r].nodeName.toLowerCase() && l(n[r])
+        }, l = function(e) {
+            var t = e,
+                a = g(t),
+                n = {
+                    type: t.getAttribute("type"),
+                    pattern: t.getAttribute("pattern"),
+                    placeholder: t.getAttribute("placeholder")
+                }, r = /^(email|url)$/i,
+                s = /^(input|keyup)$/i,
+                l = r.test(n.type) ? n.type : n.pattern ? n.pattern : !1,
+                u = f(t, l),
+                o = m(t, "step"),
+                v = m(t, "min"),
+                h = m(t, "max"),
+                b = !("" === t.validationMessage || void 0 === t.validationMessage);
+            t.checkValidity = function() {
+                return c.call(this, t)
+            }, t.setCustomValidity = function(e) {
+                d.call(t, e)
+            }, t.validity = {
+                valueMissing: a,
+                patternMismatch: u,
+                rangeUnderflow: v,
+                rangeOverflow: h,
+                stepMismatch: o,
+                customError: b,
+                valid: !(a || u || o || v || h || b)
+            }, n.placeholder && !s.test(i) && p(t)
+        }, u = function(e) {
+            var t = C(e) || e,
+                a = /^(input|keyup|focusin|focus|change)$/i,
+                r = /^(submit|image|button|reset)$/i,
+                s = /^(checkbox|radio)$/i,
+                o = !0;
+            !L.test(t.nodeName) || r.test(t.type) || r.test(t.nodeName) || (i = e.type, v() || l(t), t.validity.valid && ("" !== t.value || s.test(t.type)) || t.value !== t.getAttribute("placeholder") && t.validity.valid ? (A(t, [n.invalidClass, n.requiredClass]), N(t, n.validClass)) : a.test(i) ? t.validity.valueMissing && A(t, [n.requiredClass, n.invalidClass, n.validClass]) : t.validity.valueMissing ? (A(t, [n.invalidClass, n.validClass]), N(t, n.requiredClass)) : t.validity.valid || (A(t, [n.validClass, n.requiredClass]), N(t, n.invalidClass)), "input" === i && o && (y(t.form, "keyup", u, !0), o = !1))
+        }, c = function(t) {
+            var a, i, n, r, s = !1;
+            if ("form" === t.nodeName.toLowerCase()) {
+                a = t.elements;
+                for (var l = 0, o = a.length; o > l; l++) i = a[l], n = !! i.attributes.required, r = !! i.attributes.pattern, "fieldset" !== i.nodeName.toLowerCase() && (n || r && n) && (u(i), i.validity.valid || s || (e && i.focus(), s = !0));
+                return !s
+            }
+            return u(t), t.validity.valid
+        }, d = function(e) {
+            var t = this;
+            t.validationMessage = e
+        }, o = function(e) {
+            var a = C(e);
+            a.attributes.formnovalidate && "submit" === a.type && (t = !0)
+        }, v = function() {
+            return E(x, "validity") && E(x, "checkValidity")
+        }, f = function(e, t) {
+            if ("email" === t) return !q.test(e.value);
+            if ("url" === t) return !M.test(e.value);
+            if (t) {
+                var i = e.getAttribute("placeholder"),
+                    n = e.value;
+                return a = RegExp("^(?:" + t + ")$"), n === i ? !1 : "" === n ? !1 : !a.test(e.value)
+            }
+            return !1
+        }, p = function(e) {
+            var t = {
+                placeholder: e.getAttribute("placeholder")
+            }, a = /^(focus|focusin|submit)$/i,
+                r = /^(input|textarea)$/i,
+                s = /^password$/i,
+                l = !! ("placeholder" in x);
+            l || !r.test(e.nodeName) || s.test(e.type) || ("" !== e.value || a.test(i) ? e.value === t.placeholder && a.test(i) && (e.value = "", A(e, n.placeholderClass)) : (e.value = t.placeholder, b(e.form, "submit", function() {
+                i = "submit", p(e)
+            }, !0), N(e, n.placeholderClass)))
+        }, m = function(e, t) {
+            var a = parseInt(e.getAttribute("min"), 10) || 0,
+                i = parseInt(e.getAttribute("max"), 10) || !1,
+                n = parseInt(e.getAttribute("step"), 10) || 1,
+                r = parseInt(e.value, 10),
+                s = (r - a) % n;
+            return g(e) || isNaN(r) ? "number" === e.getAttribute("type") ? !0 : !1 : "step" === t ? e.getAttribute("step") ? 0 !== s : !1 : "min" === t ? e.getAttribute("min") ? a > r : !1 : "max" === t ? e.getAttribute("max") ? r > i : !1 : void 0
+        }, h = function(e) {
+            var t = !! e.attributes.required;
+            return t ? g(e) : !1
+        }, g = function(e) {
+            var t = e.getAttribute("placeholder"),
+                a = /^(checkbox|radio)$/i,
+                i = !! e.attributes.required;
+            return !(!i || "" !== e.value && e.value !== t && (!a.test(e.type) || $(e)))
+        }, b = function(e, t, a, i) {
+            E(window, "addEventListener") ? e.addEventListener(t, a, i) : E(window, "attachEvent") && window.event !== void 0 && ("blur" === t ? t = "focusout" : "focus" === t && (t = "focusin"), e.attachEvent("on" + t, a))
+        }, y = function(e, t, a, i) {
+            E(window, "removeEventListener") ? e.removeEventListener(t, a, i) : E(window, "detachEvent") && window.event !== void 0 && e.detachEvent("on" + t, a)
+        }, w = function(e) {
+            e = e || window.event, e.stopPropagation && e.preventDefault ? (e.stopPropagation(), e.preventDefault()) : (e.cancelBubble = !0, e.returnValue = !1)
+        }, C = function(e) {
+            return e = e || window.event, e.target || e.srcElement
+        }, N = function(e, t) {
+            var a;
+            e.className ? (a = RegExp("(^|\\s)" + t + "(\\s|$)"), a.test(e.className) || (e.className += " " + t)) : e.className = t
+        }, A = function(e, t) {
+            var a, i, n = "object" == typeof t ? t.length : 1,
+                r = n;
+            if (e.className)
+                if (e.className === t) e.className = "";
+                else
+                    for (; n--;) a = RegExp("(^|\\s)" + (r > 1 ? t[n] : t) + "(\\s|$)"), i = e.className.match(a), i && 3 === i.length && (e.className = e.className.replace(a, i[1] && i[2] ? " " : ""))
+        }, E = function(e, t) {
+            var a = typeof e[t],
+                i = RegExp("^function|object$", "i");
+            return !!(i.test(a) && e[t] || "unknown" === a)
+        }, $ = function(e) {
+            for (var t = document.getElementsByName(e.name), a = 0; t.length > a; a++)
+                if (t[a].checked) return !0;
+            return !1
+        }, {
+            setup: r
+        }
+    });
+    </script>
+
+    <link href='https://docs.google.com/static/forms/client/css/722395648-mobile_formview_ltr.css' type='text/css' rel='stylesheet' media='screen and (max-device-width: 721px)'>
+
+</head>
+
+<body dir="ltr" class="ss-base-body">
+    <div itemscope itemtype="http://schema.org/CreativeWork/FormObject">
+        <meta itemprop="name" content="PHPConf 2013 會後問卷">
+        <meta itemprop="description" content="感謝您參加本次 PHPConf Taiwan 2013 大會，在此希望您務必撥冗填寫本問卷，讓我們能瞭解您對本次活動的看法，以做為往後活動籌備之參考。">
+
+        <meta itemprop="url" content="https://docs.google.com/forms/d/14ttX51dJMlY6Gy9eBSp4su1QC5Le0Z0zai9XXTNA4p0/viewform">
+        <meta itemprop="embedUrl" content="https://docs.google.com/forms/d/14ttX51dJMlY6Gy9eBSp4su1QC5Le0Z0zai9XXTNA4p0/viewform?embedded=true">
+        <meta itemprop="faviconUrl" content="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_jfk2.png">
+
+        <div class="ss-form-container">
+            <div class="ss-top-of-page">
+
+
+                <div class="ss-form-heading">
+                    <img src="images/logo.png" class="logo" />
+                    <h1 class="ss-form-title" dir="ltr">PHPConf 2013 會後問卷</h1>
+                    <div class="ss-form-desc ss-no-ignore-whitespace">感謝您參加本次 PHPConf Taiwan 2013 大會，在此希望您務必撥冗填寫本問卷，讓我們能瞭解您對本次活動的看法，以做為往後活動籌備之參考。</div>
+                    <hr class="ss-email-break" style="display:none;">
+                    <div class="ss-required-asterisk">*必填</div>
+                </div>
+            </div>
+            <div class="ss-form">
+                <form action="https://docs.google.com/forms/d/14ttX51dJMlY6Gy9eBSp4su1QC5Le0Z0zai9XXTNA4p0/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+                    <ol style="padding-left: 0">
+                        <div class="ss-form-question errorbox-good">
+                            <div dir="ltr" class="ss-item ss-item-required ss-text">
+                                <div class="ss-form-entry">
+                                    <label aria-hidden class="ss-q-item-label aria-todo" for="entry_771388863">
+                                        <div class="ss-q-title">您是？
+                                            <label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
+                                            <span class="ss-required-asterisk">*</span>
+                                        </div>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr">請填寫您的姓名或暱稱</div>
+                                    </label>
+                                    <input type="text" name="entry.771388863" value="" class="ss-q-short" id="entry_771388863" dir="auto" aria-label="您是？ 請填寫您的姓名或暱稱 " aria-required="true" required="" title="">
+                                    <div class="error-message"></div>
+                                    <div class="required-message">這是必填問題</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ss-form-question errorbox-good">
+                            <div dir="ltr" class="ss-item ss-item-required ss-text">
+                                <div class="ss-form-entry">
+                                    <label aria-hidden class="ss-q-item-label aria-todo" for="entry_1660243808">
+                                        <div class="ss-q-title">您的 Email
+                                            <label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
+                                            <span class="ss-required-asterisk">*</span>
+                                        </div>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr">方便後續我們能個別連絡您</div>
+                                    </label>
+                                    <input type="email" name="entry.1660243808" value="" class="ss-q-short" id="entry_1660243808" dir="auto" aria-label="您的 Email 方便後續我們能個別連絡您 請輸入有效的電子郵件地址" aria-required="true" required="" title="&#35531;&#36664;&#20837;&#26377;&#25928;&#30340;&#38651;&#23376;&#37109;&#20214;&#22320;&#22336;">
+                                    <div class="error-message">&#35531;&#36664;&#20837;&#26377;&#25928;&#30340;&#38651;&#23376;&#37109;&#20214;&#22320;&#22336;</div>
+                                    <div class="required-message">這是必填問題</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ss-form-question errorbox-good">
+                            <div dir="ltr" class="ss-item  ss-text">
+                                <div class="ss-form-entry">
+                                    <label aria-hidden class="ss-q-item-label aria-todo" for="entry_183801894">
+                                        <div class="ss-q-title">您是因為何種原因參加本次大會？
+                                        </div>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                    </label>
+                                    <input type="text" name="entry.183801894" value="" class="ss-q-short" id="entry_183801894" dir="auto" aria-label="您是因為何種原因參加本次大會？  " title="">
+                                    <div class="error-message"></div>
+                                    <div class="required-message">這是必填問題</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ss-form-question errorbox-good">
+                            <div dir="ltr" class="ss-item ss-item-required ss-radio">
+                                <div class="ss-form-entry">
+                                    <label aria-hidden class="ss-q-item-label aria-todo" for="entry_50913384">
+                                        <div class="ss-q-title">您對於現場工作人員服務態度是否滿意？
+                                            <label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
+                                            <span class="ss-required-asterisk">*</span>
+                                        </div>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                    </label>
+
+                                    <ul class="ss-choices" role="radiogroup" aria-label="您對於現場工作人員服務態度是否滿意？  ">
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1288118415" value="&#38750;&#24120;&#22909;" id="group_1288118415_1" role="radio" class="ss-q-radio" aria-label="&#38750;&#24120;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">非常好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1288118415" value="&#24456;&#22909;" id="group_1288118415_2" role="radio" class="ss-q-radio" aria-label="&#24456;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">很好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1288118415" value="&#26222;&#36890;" id="group_1288118415_3" role="radio" class="ss-q-radio" aria-label="&#26222;&#36890;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">普通</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1288118415" value="&#19981;&#22826;&#22909;" id="group_1288118415_4" role="radio" class="ss-q-radio" aria-label="&#19981;&#22826;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">不太好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1288118415" value="&#38656;&#35201;&#25913;&#21892;" id="group_1288118415_5" role="radio" class="ss-q-radio" aria-label="&#38656;&#35201;&#25913;&#21892;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">需要改善</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <div class="error-message"></div>
+                                    <div class="required-message">這是必填問題</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="errorbox-good">
+                            <div dir="ltr" class="ss-item  ss-section-header">
+                                <div class="ss-form-entry">
+                                    <h2 class="ss-section-title">場地</h2>
+                                    <div class="ss-section-description ss-no-ignore-whitespace"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ss-form-question errorbox-good">
+                            <div dir="ltr" class="ss-item ss-item-required ss-radio">
+                                <div class="ss-form-entry">
+                                    <label aria-hidden class="ss-q-item-label aria-todo" for="entry_1626038831">
+                                        <div class="ss-q-title">您對場地的狀況是否滿意？
+                                            <label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
+                                            <span class="ss-required-asterisk">*</span>
+                                        </div>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr">對活動場地之環境或設備的感想</div>
+                                    </label>
+
+                                    <ul class="ss-choices" role="radiogroup" aria-label="您對場地的狀況是否滿意？ 對活動場地之環境或設備的感想 ">
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1214267602" value="&#38750;&#24120;&#22909;" id="group_1214267602_1" role="radio" class="ss-q-radio" aria-label="&#38750;&#24120;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">非常好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1214267602" value="&#24456;&#22909;" id="group_1214267602_2" role="radio" class="ss-q-radio" aria-label="&#24456;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">很好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1214267602" value="&#26222;&#36890;" id="group_1214267602_3" role="radio" class="ss-q-radio" aria-label="&#26222;&#36890;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">普通</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1214267602" value="&#19981;&#22826;&#22909;" id="group_1214267602_4" role="radio" class="ss-q-radio" aria-label="&#19981;&#22826;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">不太好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1214267602" value="&#26377;&#24453;&#25913;&#36914;" id="group_1214267602_5" role="radio" class="ss-q-radio" aria-label="&#26377;&#24453;&#25913;&#36914;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">有待改進</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <div class="error-message"></div>
+                                    <div class="required-message">這是必填問題</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ss-form-question errorbox-good">
+                            <div dir="ltr" class="ss-item ss-item-required ss-radio">
+                                <div class="ss-form-entry">
+                                    <label aria-hidden class="ss-q-item-label aria-todo" for="entry_1549366846">
+                                        <div class="ss-q-title">您對場地的活動動線是否滿意？
+                                            <label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
+                                            <span class="ss-required-asterisk">*</span>
+                                        </div>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr">報名動線、議程換場動線等感想</div>
+                                    </label>
+
+                                    <ul class="ss-choices" role="radiogroup" aria-label="您對場地的活動動線是否滿意？ 報名動線、議程換場動線等感想 ">
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1789384646" value="&#38750;&#24120;&#22909;" id="group_1789384646_1" role="radio" class="ss-q-radio" aria-label="&#38750;&#24120;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">非常好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1789384646" value="&#24456;&#22909;" id="group_1789384646_2" role="radio" class="ss-q-radio" aria-label="&#24456;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">很好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1789384646" value="&#26222;&#36890;" id="group_1789384646_3" role="radio" class="ss-q-radio" aria-label="&#26222;&#36890;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">普通</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1789384646" value="&#19981;&#22826;&#22909;" id="group_1789384646_4" role="radio" class="ss-q-radio" aria-label="&#19981;&#22826;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">不太好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1789384646" value="&#26377;&#24453;&#25913;&#36914;" id="group_1789384646_5" role="radio" class="ss-q-radio" aria-label="&#26377;&#24453;&#25913;&#36914;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">有待改進</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <div class="error-message"></div>
+                                    <div class="required-message">這是必填問題</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ss-form-question errorbox-good">
+                            <div dir="ltr" class="ss-item ss-item-required ss-radio">
+                                <div class="ss-form-entry">
+                                    <label aria-hidden class="ss-q-item-label aria-todo" for="entry_2124965002">
+                                        <div class="ss-q-title">您對本次餐點是否滿意？
+                                            <label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
+                                            <span class="ss-required-asterisk">*</span>
+                                        </div>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr">包含午餐、下午茶等感想</div>
+                                    </label>
+
+                                    <ul class="ss-choices" role="radiogroup" aria-label="您對本次餐點是否滿意？ 包含午餐、下午茶等感想 ">
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1693976124" value="&#38750;&#24120;&#22909;" id="group_1693976124_1" role="radio" class="ss-q-radio" aria-label="&#38750;&#24120;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">非常好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1693976124" value="&#24456;&#22909;" id="group_1693976124_2" role="radio" class="ss-q-radio" aria-label="&#24456;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">很好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1693976124" value="&#26222;&#36890;" id="group_1693976124_3" role="radio" class="ss-q-radio" aria-label="&#26222;&#36890;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">普通</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1693976124" value="&#19981;&#22826;&#22909;" id="group_1693976124_4" role="radio" class="ss-q-radio" aria-label="&#19981;&#22826;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">不太好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1693976124" value="&#26377;&#24453;&#25913;&#36914;" id="group_1693976124_5" role="radio" class="ss-q-radio" aria-label="&#26377;&#24453;&#25913;&#36914;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">有待改進</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <div class="error-message"></div>
+                                    <div class="required-message">這是必填問題</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="errorbox-good">
+                            <div dir="ltr" class="ss-item  ss-section-header">
+                                <div class="ss-form-entry">
+                                    <h2 class="ss-section-title">議程</h2>
+                                    <div class="ss-section-description ss-no-ignore-whitespace"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ss-form-question errorbox-good">
+                            <div dir="ltr" class="ss-item ss-item-required ss-radio">
+                                <div class="ss-form-entry">
+                                    <label aria-hidden class="ss-q-item-label aria-todo" for="entry_269371869">
+                                        <div class="ss-q-title">您對議程內容安排是否滿意？
+                                            <label for="itemView.getDomIdToLabel()" aria-label="(必填欄位)"></label>
+                                            <span class="ss-required-asterisk">*</span>
+                                        </div>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr">請參考<a href="http://phpconf.tw/2013/schedule.html" target="_blank">議程表</a>
+                                        </div>
+                                    </label>
+
+                                    <ul class="ss-choices" role="radiogroup" aria-label="您對議程內容安排是否滿意？請參考議程表">
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1277221752" value="&#38750;&#24120;&#22909;" id="group_1277221752_1" role="radio" class="ss-q-radio" aria-label="&#38750;&#24120;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">非常好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1277221752" value="&#24456;&#22909;" id="group_1277221752_2" role="radio" class="ss-q-radio" aria-label="&#24456;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">很好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1277221752" value="&#26222;&#36890;" id="group_1277221752_3" role="radio" class="ss-q-radio" aria-label="&#26222;&#36890;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">普通</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1277221752" value="&#19981;&#22826;&#22909;" id="group_1277221752_4" role="radio" class="ss-q-radio" aria-label="&#19981;&#22826;&#22909;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">不太好</span>
+                                            </label>
+                                        </li>
+                                        <li class="ss-choice-item">
+                                            <label>
+                                                <span class="ss-choice-item-control goog-inline-block">
+                                                    <input type="radio" name="entry.1277221752" value="&#26377;&#24453;&#25913;&#36914;" id="group_1277221752_5" role="radio" class="ss-q-radio" aria-label="&#26377;&#24453;&#25913;&#36914;" required="">
+                                                </span>
+                                                <span class="ss-choice-label">有待改進</span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                    <div class="error-message"></div>
+                                    <div class="required-message">這是必填問題</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ss-form-question errorbox-good">
+                            <div dir="ltr" class="ss-item  ss-paragraph-text">
+                                <div class="ss-form-entry">
+                                    <label aria-hidden class="ss-q-item-label aria-todo" for="entry_368585231">
+                                        <div class="ss-q-title">您收穫最多的議程是？
+                                        </div>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr">請參考<a href="http://phpconf.tw/2013/schedule.html" target="_blank">議程表</a>，並複製議程名稱至以下欄位，也歡迎您簡短描述您的建議</div>
+                                    </label>
+                                    <textarea name="entry.368585231" rows="8" cols="0" class="ss-q-long" id="entry_368585231" dir="auto" aria-label="您收穫最多的議程是？ 請參考議程表，並複製議程名稱至以下欄位，也歡迎您簡短描述您的建議 "></textarea>
+                                    <div class="error-message"></div>
+                                    <div class="required-message">這是必填問題</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ss-form-question errorbox-good">
+                            <div dir="ltr" class="ss-item  ss-paragraph-text">
+                                <div class="ss-form-entry">
+                                    <label aria-hidden class="ss-q-item-label aria-todo" for="entry_1264846768">
+                                        <div class="ss-q-title">您有想聽卻衝堂的議程是？
+                                        </div>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                    </label>
+                                    <textarea name="entry.1264846768" rows="8" cols="0" class="ss-q-long" id="entry_1264846768" dir="auto" aria-label="您有想聽卻衝堂的議程是？  "></textarea>
+                                    <div class="error-message"></div>
+                                    <div class="required-message">這是必填問題</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ss-form-question errorbox-good">
+                            <div dir="ltr" class="ss-item  ss-paragraph-text">
+                                <div class="ss-form-entry">
+                                    <label aria-hidden class="ss-q-item-label aria-todo" for="entry_1686361598">
+                                        <div class="ss-q-title">您覺得有待加強的議程是？
+                                        </div>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                    </label>
+                                    <textarea name="entry.1686361598" rows="8" cols="0" class="ss-q-long" id="entry_1686361598" dir="auto" aria-label="您覺得有待加強的議程是？  "></textarea>
+                                    <div class="error-message"></div>
+                                    <div class="required-message">這是必填問題</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ss-form-question errorbox-good">
+                            <div dir="ltr" class="ss-item  ss-paragraph-text">
+                                <div class="ss-form-entry">
+                                    <label aria-hidden class="ss-q-item-label aria-todo" for="entry_1372346380">
+                                        <div class="ss-q-title">您對本次活動的建議與指教
+                                        </div>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                    </label>
+                                    <textarea name="entry.1372346380" rows="8" cols="0" class="ss-q-long" id="entry_1372346380" dir="auto" aria-label="您對本次活動的建議與指教  "></textarea>
+                                    <div class="error-message"></div>
+                                    <div class="required-message">這是必填問題</div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ss-form-question errorbox-good">
+                            <div dir="ltr" class="ss-item  ss-paragraph-text">
+                                <div class="ss-form-entry">
+                                    <label aria-hidden class="ss-q-item-label aria-todo" for="entry_1770980089">
+                                        <div class="ss-q-title">您有想對志工們說的話嗎？
+                                        </div>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                    </label>
+                                    <textarea name="entry.1770980089" rows="8" cols="0" class="ss-q-long" id="entry_1770980089" dir="auto" aria-label="您有想對志工們說的話嗎？  "></textarea>
+                                    <div class="error-message"></div>
+                                    <div class="required-message">這是必填問題</div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <input type="hidden" name="draftResponse" value="[]
+">
+                        <input type="hidden" name="pageHistory" value="0">
+
+
+                        <div class="ss-item ss-navigate">
+                            <table id="navigation-table">
+                                <tbody>
+                                    <tr>
+                                        <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+                                            <input type="submit" name="submit" value="&#25552;&#20132;" id="ss-submit">
+                                            <div class="ss-secondary-text">請勿透過 Google 表單送出密碼。</div>
+                                        </td>
+                                        <td id="progress-container">                                            
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </ol>
+                </form>
+            </div>
+            <div class="ss-footer">
+                <div class="ss-attribution"></div>
+                <div class="ss-legal">
+                    <div class="disclaimer-separator"></div>
+                    <div class="disclaimer" dir="ltr">
+                        <div class="powered-by-logo">
+                            <span class="powered-by-text">技術提供：</span>
+                            <a class="ss-logo-link" href="http://drive.google.com">
+                                <img class="ss-logo" src="https://ssl.gstatic.com/docs/forms/drive_logo_small.png" alt="Google 雲端硬碟">
+                            </a>
+                        </div>
+                        <div class="ss-terms">
+                            <span class="disclaimer-msg">Google &#20006;&#26410;&#35469;&#21487;&#25110;&#24314;&#31435;&#36889;&#38917;&#20839;&#23481;&#12290;</span>
+                            <br>
+                            <a href="https://docs.google.com/forms/d/14ttX51dJMlY6Gy9eBSp4su1QC5Le0Z0zai9XXTNA4p0/reportabuse?source=https://docs.google.com/forms/d/14ttX51dJMlY6Gy9eBSp4su1QC5Le0Z0zai9XXTNA4p0/viewform">檢舉濫用情形</a>
+                            -
+                            <a href="http://www.google.com/accounts/TOS">服務條款</a>
+                            -
+                            <a href="http://www.google.com/google-d-s/terms.html">其他條款</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="docs-aria-speakable" class="docs-a11y-ariascreenreader-speakable docs-offscreen" aria-live="assertive" role="region" aria-atomic></div>
+        </div>
+
+        <script type='text/javascript' src='https://docs.google.com/static/forms/client/js/135734866-formviewer_prd__zh_tw.js'></script>
+        <script type="text/javascript">
+        H5F.setup(document.getElementById('ss-form'));
+        _initFormViewer(
+            "[100,\x22#e05e2c\x22,[[[1660243808,[[2,102,,\x22\x22]\n]\n]\n]\n]\n]\n");
+        </script>
+    </div>
+</body>
+
+</html>
