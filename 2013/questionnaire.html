@@ -4,16 +4,15 @@
 <head>
     <meta charset="utf-8">
     <title>PHPConf Taiwan 2013 :: 會後問卷</title>
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
-    <meta property="og:title" content="PHPConf Taiwan 2013 :: Schedule"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:description" content="PHPConf Taiwan 2013 是台灣年度 PHP 聚會，於 10/5 在中研院人文館舉行。"/>
-    <meta property="og:url" content="http://phpconf.tw/2013/"/>
-    <meta property="og:image" content="http://phpconf.tw/2013/images/fb.png"/>
-    <meta property="og:site_name" content="PHPConf Taiwan 2013"/>
-    <meta property="fb:app_id" content="405706069513334"/>
-    <link href="css/schedule.css" media="screen, projection" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta property="og:title" content="PHPConf Taiwan 2013 :: Schedule" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="PHPConf Taiwan 2013 是台灣年度 PHP 聚會，於 10/5 在中研院人文館舉行。" />
+    <meta property="og:url" content="http://phpconf.tw/2013/" />
+    <meta property="og:image" content="http://phpconf.tw/2013/images/fb.png" />
+    <meta property="og:site_name" content="PHPConf Taiwan 2013" />
+    <meta property="fb:app_id" content="405706069513334" />
+    <link href="css/schedule.css" media="screen, projection" rel="stylesheet" />
     <!--[if lt IE 9]>
     <script src="js/html5shiv/html5shiv.js"></script>
     <![endif]-->
@@ -104,7 +103,16 @@
         color: #b08060;
     }
     .logo {
-      float: right;
+        float: right;
+    }
+    fieldset {
+        margin: 2em auto;
+        border: none;
+        border-top: 1px solid #ccc; 
+    }
+    legend {
+        font-size: 2em;
+        padding: 0.3em;
     }
     </style>
     <script type="text/javascript">
@@ -290,7 +298,8 @@
             </div>
             <div class="ss-form">
                 <form action="https://docs.google.com/forms/d/14ttX51dJMlY6Gy9eBSp4su1QC5Le0Z0zai9XXTNA4p0/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
-                    <ol style="padding-left: 0">
+                    <fieldset>
+                        <legend>基本資料</legend>
                         <div class="ss-form-question errorbox-good">
                             <div dir="ltr" class="ss-item ss-item-required ss-text">
                                 <div class="ss-form-entry">
@@ -340,6 +349,10 @@
                                 </div>
                             </div>
                         </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>場地與服務</legend>
                         <div class="ss-form-question errorbox-good">
                             <div dir="ltr" class="ss-item ss-item-required ss-radio">
                                 <div class="ss-form-entry">
@@ -395,15 +408,6 @@
                                     </ul>
                                     <div class="error-message"></div>
                                     <div class="required-message">這是必填問題</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="errorbox-good">
-                            <div dir="ltr" class="ss-item  ss-section-header">
-                                <div class="ss-form-entry">
-                                    <h2 class="ss-section-title">場地</h2>
-                                    <div class="ss-section-description ss-no-ignore-whitespace"></div>
-
                                 </div>
                             </div>
                         </div>
@@ -581,15 +585,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="errorbox-good">
-                            <div dir="ltr" class="ss-item  ss-section-header">
-                                <div class="ss-form-entry">
-                                    <h2 class="ss-section-title">議程</h2>
-                                    <div class="ss-section-description ss-no-ignore-whitespace"></div>
-
-                                </div>
-                            </div>
-                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>議程</legend>
                         <div class="ss-form-question errorbox-good">
                             <div dir="ltr" class="ss-item ss-item-required ss-radio">
                                 <div class="ss-form-entry">
@@ -724,27 +722,27 @@
                                 </div>
                             </div>
                         </div>
-
-                        <input type="hidden" name="draftResponse" value="[]
+                    </fieldset>
+                    <input type="hidden" name="draftResponse" value="[]
 ">
-                        <input type="hidden" name="pageHistory" value="0">
+                    <input type="hidden" name="pageHistory" value="0">
 
 
-                        <div class="ss-item ss-navigate">
-                            <table id="navigation-table">
-                                <tbody>
-                                    <tr>
-                                        <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
-                                            <input type="submit" name="submit" value="&#25552;&#20132;" id="ss-submit">
-                                            <div class="ss-secondary-text">請勿透過 Google 表單送出密碼。</div>
-                                        </td>
-                                        <td id="progress-container">                                            
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </ol>
+                    <div class="ss-item ss-navigate">
+                        <table id="navigation-table">
+                            <tbody>
+                                <tr>
+                                    <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+                                        <input type="submit" name="submit" value="&#25552;&#20132;" id="ss-submit">
+                                        <div class="ss-secondary-text">請勿透過 Google 表單送出密碼。</div>
+                                    </td>
+                                    <td id="progress-container">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
                 </form>
             </div>
             <div class="ss-footer">
